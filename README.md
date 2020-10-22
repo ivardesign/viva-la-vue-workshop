@@ -58,15 +58,33 @@
 ---
 
 ![birds](https://anantasite.files.wordpress.com/2015/10/page-header-blog.png)
+
+---
+
 # Let us Dive into Vue
 **In the first section we are going to do a small amount of code but we will learn a lot about it.**
 
 ---
 <a name="section-1">Section I.</a>
-# What is Vue.js?
-## Vue.js is a Frontend Framework.
---- 
+![birds](https://anantasite.files.wordpress.com/2015/10/page-header-blog.png)
+# Let us Dive into Vue
+**In the first section we are going to do a small amount of code but we will learn a lot about it.**
+
+## First of all, What is Vue.js?
+#### Vue.js is a Frontend Framework. 
 Let's break down what "frontend framework" means. 
+
+“Frontend” means the code that you see in your browser, like Firefox, Chrome, or Safari. 
+> A “framework” is like the workbench of tools and supplies that you need to build a project on the web.
+> Imagine that instead of coding, you were a carpenter building a house. A carpenter has her workbench of tools. This might include a saw and hammer. But it would probably not include a plunger. The carpenter’s workbench **only** includes that which is needed for carpentry.
+> Our “frontend framework” includes all of the tools we need to create web-pages and **only** includes those tools. 
+ 
+Other Frontend Frameworks that you may have heard of include React, Angular, Ember and many, many more. 
+  
+We choose to use Vue.js because it is one of the most modern, one of the most   popular, AND the code is **easy to read.** 
+  
+Vue.js is one of the frameworks you are most likely to use in the real world, and one of the quickest to learn. 
+  
 
 
 
