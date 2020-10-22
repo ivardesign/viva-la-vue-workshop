@@ -417,9 +417,27 @@ Let’s add another variable, lastName, in out data object:
   + errors “are not bad” they are merely guiding you that you have to fix something
   3. the values like lastName value ‘Harris’ is in quotes (single or double quotes are fine).
 
+If you forget the comma, you may see this in your browser:
 
+```html
+  Failed to compile.
+  ./src/App.vue
+  Module Error (from ./node_modules/eslint-loader/index.js):
+  /home/one/Desktop/viva-la-vue/src/App.vue
+  13:8 error Parsing error: Unexpected token, expected ","
+  4 | return {
+  5 | firstName: 'Kamala'
+  > 6 | lastName: ‘Harris’
+  | ^
+  7 | }
+  8 | }
+  9 | }
+  ✖ 1 problem (1 error, 0 warnings)
 
-
+```
+#### Temporarily Break your code:
++ remove the comma.
+  + To experiment, purposefully make an error by removing the comma between firstName & lastName. Look at how clear the errors are in Vue.js. *Errors are a normal part of programming.* **You did not break anything.** Errors are there to guide you back to the right direction.
 
 
 
