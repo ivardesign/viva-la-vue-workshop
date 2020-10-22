@@ -463,8 +463,8 @@ Put the comma back, and let's continue.
 ---
 
 Let's start using data in more interesting ways:
-+ Our current syntax {{ firstName }} is only used to display data in our HTML.
-+ However, data is meant to be updated and displayed.  
++ Our current syntax `{{ firstName }}` is only used to display data in our HTML.
++ However, data is ***meant to be updated*** and displayed.  
 
 We will now learn a 2nd syntax, one that makes our data much more useful.  
 + As we said earlier, Javascript is all about affecting behavior.  
