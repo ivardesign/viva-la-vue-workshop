@@ -373,7 +373,7 @@ With Vue.js it is super simple to **use** these variables *within our HTML!*
 
 In the HTML, we use double curly brackets like this:
 `{{ firstName }}` ← wherever you see this, Kamala will appear.
-+ This is called the "templating syntax."  It **displays** the variable value.
++ This is called the `"templating syntax."`  It ***displays*** the variable value.
 
 So now in our HTML aka `<template>` section, we can add another sentence to use our variable.
 
