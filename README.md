@@ -274,7 +274,7 @@ Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js ma
 
 In every `.vue` file, there will be these 3 sections, the 1st section will be the html, between `<template>` the 2nd section, will be in the `<script>` section which contains the Javascript, the 3rd section is the `<style>` section, which contains the CSS. 
 
-In Vue.js these abilities are all wrapped together in a nice little package, the `.vue` file. 
+In Vue.js these abilities are all wrapped together in a nice little package, the `.vue` file. This structure allows us to use `stardard HTML and CSS` together, and sprinkle in little bits of Javascript directly into our HTML code.
 
 #### Our App.vue file:
 ```html
@@ -303,7 +303,7 @@ As we can see, the `.vue` file has all 3 parts of what a browser can use: the `H
 
 + **Important Term**: All together, this .vue file is called a **“component.”**
 
-For example, in our app, **App.vue is a “vue component.”** We will talk a lot more about components later, but for now know that each `.vue` file, is known as a Vue “component” – a mini-package of HTML, CSS, and Javascript that all work together.  This structure allows us to sprinkle in little bits of Javascript in our HTML code, so they can more easily work together.
+For example, in our app, **App.vue is a “vue component.”** We will talk a lot more about components later, but for now know that each `.vue` file, is known as a Vue “component” – a mini-package of HTML, CSS, and Javascript, so they can more easily work together.
 
 
 
