@@ -62,9 +62,10 @@
 # Let us Dive into Vue
 **In the first section we are going to do a small amount of code but we will learn a lot about it.**
 
-## First of all, What is Vue.js?
-#### Vue.js is a Frontend Framework. 
-I. Let's break down what "frontend framework" means. 
+# First of all, What is Vue.js?
+## Vue.js is a Frontend Framework. 
+
+#### I. Let's break down what "frontend framework" means. 
 
 “Frontend” means the code that you see in your browser, like Firefox, Chrome, or Safari. 
 - A “framework” is like the workbench of tools and supplies that you need to build a project on the web.
@@ -76,9 +77,11 @@ Other Frontend Frameworks that you may have heard of include React, Angular, Emb
 We choose to use Vue.js because it is one of the most modern, one of the most   popular, AND the code is **easy to read.** 
   
 Vue.js is one of the frameworks you are most likely to use in the real world, and one of the quickest to learn. 
-  
-Let’s get started!
-II. First, make sure the “vue” command is available in your terminal:
+
+
+##. Let’s get started!
+#### II. First, make sure the “vue” command is available in your terminal:
+
   $ `npm install -g @vue/cli`
 now we can do vue commands, like $ vue create _____
 
