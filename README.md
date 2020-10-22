@@ -459,8 +459,16 @@ Put the comma back, and let's continue.
 ---
 <a name="section-3">Section III.</a>
 # Dynamic Data
-## Updatable Data, Two-Way Binding, Our First Directive v-model.
+## Updatable Data, Two-Way Binding and Our First Directive v-model.
 ---
+
+Let's start using data in more interesting ways:
++ Our current syntax {{ firstName }} is only used to display data in our HTML.
++ However, data is meant to be updated and displayed.  
+
+We will now learn a 2nd syntax, one that makes our data much more useful.  
++ As we said earlier, Javascript is all about affecting behavior.  
++ What we will learn now will allow us to use logic and make our data updatable.  This is called dynamic data.
 
 
 
