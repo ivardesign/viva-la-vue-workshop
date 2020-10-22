@@ -185,9 +185,8 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 + Now, take a look in your browser.
 + You should see the text you wrote: “Welcome to the Viva-LA-Vue Workshop!” in your browser.
 
-### Next, let's test that our css works, by adding id and styles:
-
-#### Note so far in our Vue.js app, we have only needed to use **standard HTML**  You will see that we also use **stardard CSS.**
+#### Next, let's test that our css works, by adding id and styles:
++ Note so far in our Vue.js app, we have only needed to use **standard HTML**  You will see that we also use **stardard CSS.**
 + This is a major benefit to the Vue ecosystem.  You can just use the HTML and CSS that you already know. No special languages required.
 
 
