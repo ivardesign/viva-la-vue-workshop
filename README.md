@@ -1,12 +1,5 @@
----
-<a name="section-1">Section I.</a>
-# What is Vue.js?
-##  What are Frontend Frameworks
----
-
-### Our App - Bouncy Bounce
-
-### Our Goals
+# Our App - Bouncy Bounce
+## Our Goals
 
 **At the end of the day you should**
 
@@ -68,9 +61,41 @@
 # Let us Dive into Vue
 **In the first section we are going to do a small amount of code but we will learn a lot about it.**
 
-## First of all, What is Vue.js?
-#### Vue.js is a Frontend Framework. 
+---
+<a name="section-1">Section I.</a>
+# What is Vue.js?
+## Vue.js is a Frontend Framework.
+--- 
 Let's break down what "frontend framework" means. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
