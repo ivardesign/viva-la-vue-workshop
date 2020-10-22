@@ -67,9 +67,9 @@
 Let's break down what "frontend framework" means. 
 
 “Frontend” means the code that you see in your browser, like Firefox, Chrome, or Safari. 
-> A “framework” is like the workbench of tools and supplies that you need to build a project on the web.
-> Imagine that instead of coding, you were a carpenter building a house. A carpenter has her workbench of tools. This might include a saw and hammer. But it would probably not include a plunger. The carpenter’s workbench **only** includes that which is needed for carpentry.
-> Our “frontend framework” includes all of the tools we need to create web-pages and **only** includes those tools. 
+- A “framework” is like the workbench of tools and supplies that you need to build a project on the web.
+- Imagine that instead of coding, you were a carpenter building a house. A carpenter has her workbench of tools. This might include a saw and hammer. But it would probably not include a (cherry-shaped) toilet plunger. The carpenter’s workbench only includes that which is needed for carpentry.
+- Our “frontend framework” includes all of the tools we need to create web-pages and only includes those tools.
  
 Other Frontend Frameworks that you may have heard of include React, Angular, Ember and many, many more. 
   
