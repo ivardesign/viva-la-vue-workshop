@@ -249,7 +249,7 @@ Do you have blue on your page?  Great, it worked!
     }
   </style>
 ```
-
++ You’ll know that it worked if the text is centered, and the background is back to white.
 
 
 
