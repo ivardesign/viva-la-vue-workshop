@@ -301,7 +301,7 @@ In Vue.js these abilities are all wrapped together in a nice little package, the
 
 As we can see, the `.vue` file has all 3 parts of what a browser can use: the `HTML`, `CSS`, and `Javascript` (aka: the "js"). It encapsulates the 3 things a browser can understand.
 
-+ **Important Term**: All together, this .vue file is called a **“component.”**
++ **Term**: All together, this .vue file is called a **“component.”**
 
 For example, in our app, **App.vue is a “vue component.”** We will talk a lot more about components later, but for now know that each `.vue` file, is known as a Vue “component” – a mini-package of HTML, CSS, and Javascript, so they can more easily work together.
 
