@@ -162,16 +162,18 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 #### Open the `src/App.vue` file
 + Look at what is currrently there, then delete it.
 + Copy and paste this simplified code:
-```
+
+```html
 <template>
-<div>
-Hello from the viva-LA-vue Workshop!
-</div>
+  <div>
+    Hello from the viva-LA-vue Workshop!
+  </div>
 </template>
 
 <script>
-export default {
-}
+  export default {
+
+  }
 </script>
 
 <style>
