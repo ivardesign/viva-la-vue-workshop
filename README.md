@@ -444,7 +444,12 @@ If you forget the comma, you may see this in your browser:
 
 Put the comma back, and let's continue.
 
-#### 
+#### Let’s add the lastName to your HTML using our curly brace, the templating syntax. Try to do this yourself.
+
+*CURRENT:*
+`<div>I am a developer named {{ firstName }}. Watch me as I code in Vue.js!</div>`
+*UPDATE:*
+`<div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>`
 
 
 
