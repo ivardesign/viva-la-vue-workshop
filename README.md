@@ -189,7 +189,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 + Note so far in our Vue.js app, we have only needed to use **standard HTML.** We also use **stardard CSS.**
 + This is a major benefit to the Vue ecosystem.  You can just use the HTML and CSS that you already know. No special languages required.
 
-#### Let’s style our div: 
+#### Let’s style our `<div>`: 
 
 A. First, add an “id” to our `<div>`.
 `<div id="current-id">`
@@ -205,7 +205,29 @@ Down the page, in your `<style>` section, you should create the following id, an
   </style>
 ```
 
+#### All together, your page should look like this:
 
+```html
+
+  <template>
+    <div id="current-id">
+      Hello from the viva-LA-vue Workshop!
+    </div>
+  </template>
+
+  <script>
+    export default {
+
+    }
+  </script>
+
+  <style>
+    #current-id{
+      background-color: cornflowerblue;
+    }
+  </style>
+
+```
 
 
 
