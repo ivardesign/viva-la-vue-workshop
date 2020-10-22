@@ -436,7 +436,8 @@ If you forget the comma, you may see this in your browser:
 
 ```
 #### Temporarily Break your code:
-+ \*Temporarily\* remove the comma after firstName. To experiment, let's purposefully make an error by removing the comma between firstName & lastName. 
++ \*Temporarily\* remove the comma after firstName. 
+  + To experiment, let's purposefully make an error by removing the comma between firstName & lastName. 
 + Look at how clear the errors are in Vue.js.
 + **Errors are a normal part of programming.** *You did not break anything.* Errors are there to help guide you back to the right direction.
 
