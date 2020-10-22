@@ -489,6 +489,7 @@ Notice ***where*** this new code is going to go...
 ## Updating Data via v-model:
 
 In our Vue.js template section, v-model will allow us to update our data in an `<input>` field in the browser.
+
 Let’s compare using a normal HTML `<input>` versus using the Vue.js v-model with an `<input>`.
 
 
