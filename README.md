@@ -367,8 +367,12 @@ Let's add a first "variable" in our data.  You should USE YOUR firstName.
 ```
 In our example, we have now “declared a variable,” called **firstName** with a “value” of **Kamala**.
 
-With Vue.js it is super simple to **use** these variables \*\***within our HTML!**\*\*
+With Vue.js it is super simple to **use** these variables *within our HTML!*
 
+#### Let’s see!
+
+In the HTML, we use double curly brackets like this:
+`{{ firstName }}` ⬅ wherever you see this, Kamala will appear.
 
 
 
@@ -378,7 +382,7 @@ With Vue.js it is super simple to **use** these variables \*\***within our HTML!
 
 ---
 <a name="section-3">Section III.</a>
-#⮕ Our First Directive: v-model  || Dynamic Data with v-model
+# Our First Directive: v-model  || Dynamic Data with v-model
 ---
 
 
