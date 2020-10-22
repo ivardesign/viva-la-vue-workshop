@@ -473,8 +473,8 @@ We will now learn a 2nd syntax, one that makes our data much more useful.
 #### IMPORTANT: Notice ***where*** this new code is going to go...
 
 **Previous Syntax** (Our "template language"):
-+ We put our curly braces **BETWEEN** the open/close tags of the divs. 
-`<div> {{ STUFF WAS HERE }} <div>`
++ We put our curly braces **between** the open/close tags of the divs. 
+`<div> STUFF WAS HERE <div>`
 
 **NEW Syntax**:
 + We will be doing stuff **inside the open tag**.
