@@ -374,7 +374,11 @@ With Vue.js it is super simple to **use** these variables *within our HTML!*
 In the HTML, we use double curly brackets like this:
 `{{ firstName }}` ← wherever you see this, Kamala will appear.
 
+So now in our HTML aka `<template>` section, we can add another sentence to use our variable.
 
+```html
+<div> I am a developer named {{ firstName }}. Watch me as I code in Vue.js! </div>
+```
 
 
 
