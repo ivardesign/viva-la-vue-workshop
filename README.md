@@ -57,14 +57,6 @@
 
 ---
 
-![birds](https://anantasite.files.wordpress.com/2015/10/page-header-blog.png)
-
----
-
-# Let us Dive into Vue
-**In the first section we are going to do a small amount of code but we will learn a lot about it.**
-
----
 <a name="section-1">Section I.</a>
 ![birds](https://anantasite.files.wordpress.com/2015/10/page-header-blog.png)
 # Let us Dive into Vue
