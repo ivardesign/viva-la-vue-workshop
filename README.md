@@ -255,6 +255,7 @@ Do you have blue on your page?  Great, it worked!
 + For each `<template>` **we need a parent `<div>`** or Vue will throw an error. This is the case for all of these frontend frameworks.
 + Notice that the `<h1>` is within a `<div>` this is critical. We always need ONE parent `<div>` in each of our `.vue` files.
 
+---
 
 ## Concept: Overview of the Browser
 
@@ -266,11 +267,12 @@ Do you have blue on your page?  Great, it worked!
 + **CSS**: Style. (Cascading Style Sheets)
   + Used to define the styles for your page and how they will appear. It controls the presentation of your site through position, layout, colors, size, font, et cetera. CSS allows us to style individual elements and/or all the elements at once for our entire web-application.
 
-+ **Javascript**: Behavior 
++ **Javascript**: Behavior.
   + Javascript is the way we create interactive behavior, to engage with the User.  For example, we can make a website that has a *Popup.*  Javascript gives us the ability to do programming in the browser.
 
 Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by allowing us to sprinkle in little bits of Javascript in our HTML code, so it is clear how they are working together.
 
+In every .vue file, there will be these 3 sections, the first section will be the html, between `<template>` the 2nd section, will be the `<script>` section which contains the Javasctrip, the last section is the `<style>` section, which contains the CSS. 
 
 
 
