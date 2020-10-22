@@ -461,17 +461,24 @@ Put the comma back, and let's continue.
 # Dynamic Data
 ## Updatable Data, Two-Way Binding and Our First Directive v-model.
 ---
+
 Let's start using data in more interesting ways:
-+ Our current syntax `{{ firstName }}` is only used to display data in our HTML.
++ Our 1st syntax `{{ firstName }}` is only used to display data in our HTML.
 + However, data is ***meant to be updated*** and displayed.  
 
 We will now learn a 2nd syntax, one that makes our data much more useful.  
 + As we said earlier, Javascript is all about affecting behavior.  
 + What we will learn now will allow us to use logic and make our data updatable.  This is called dynamic data.
 
+#### IMPORTANT: Notice ***where*** this new code is going to go...
 
+**Previous Syntax** (Our "template language"):
++ We put our curly braces **BETWEEN** the open/close tags of the divs. 
+`<div> {{ STUFF WAS HERE }} <div>`
 
-
+**NEW Syntax**:
++ We will be doing stuff **inside the open tag**.
+`<div NOW HERE> ... <div>`
 
 
 ---
