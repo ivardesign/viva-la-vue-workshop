@@ -373,6 +373,7 @@ With Vue.js it is super simple to **use** these variables *within our HTML!*
 
 In the HTML, we use double curly brackets like this:
 `{{ firstName }}` ← wherever you see this, Kamala will appear.
++ This is called the "templating syntax."  It **displays** the variable value.
 
 So now in our HTML aka `<template>` section, we can add another sentence to use our variable.
 
@@ -440,6 +441,10 @@ If you forget the comma, you may see this in your browser:
   + To experiment, let's purposefully make an error by removing the comma between firstName & lastName. 
 + Look at how clear the errors are in Vue.js.
 + **Errors are a normal part of programming.** *You did not break anything.* Errors are there to help guide you back to the right direction.
+
+Put the comma back, and let's continue.
+
+#### 
 
 
 
