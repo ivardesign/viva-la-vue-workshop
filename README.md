@@ -477,13 +477,13 @@ Notice ***where*** this new code is going to go...
 **Previous Syntax** (Our "template language"):
 + We put our curly braces **between** the open/close tags of the divs. 
 ```html
-<div> STUFF WAS HERE <div>
+<div> {{ CODE WAS HERE }} <div>
 ```
 
 **NEW Syntax**:
 + We will be doing stuff **inside the open tag**.
 ```html
-<div NOW HERE> ... <div>
+<div CODE NOW HERE> ... <div>
 ```
 
 
