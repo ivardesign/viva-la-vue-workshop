@@ -272,12 +272,38 @@ Do you have blue on your page?  Great, it worked!
 
 Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by grouping related `HTML` `CSS` and `Javascript` in `.vue` files.
 
-In every `.vue` file, there will be these 3 sections, the 1st section will be the html, between `<template>` the 2nd section, will be the `<script>` section which contains the Javascript, the 3rd section is the `<style>` section, which contains the CSS. 
+In every `.vue` file, there will be these 3 sections, the 1st section will be the html, between `<template>` the 2nd section, will be in the `<script>` section which contains the Javascript, the 3rd section is the `<style>` section, which contains the CSS. 
 
-This structure allows us to sprinkle in little bits of Javascript in our HTML code, so they can more easily work together.
+In Vue.js these abilities are all wrapped together in a nice little package, the `.vue` file. 
 
+#### Our App.vue file:
+```html
 
+  <template>
+    <div id="current-id">
+      Hello from the viva-LA-vue Workshop!
+    </div>
+  </template>
 
+  <script>
+    export default {
+
+    }
+  </script>
+
+  <style>
+    #current-id{
+      background-color: cornflowerblue;
+    }
+  </style>
+
+```
+
+As we can see, the `.vue` file has all 3 parts of what a browser can use: the `HTML`, `CSS`, and `Javascript` (aka: the "`js`"). It encapsulates the 3 things a browser can understand.
+
++ All together, this .vue file is called a **“component.”**
+
+For example, in our app, **App.vue is a “vue component.”** We will talk a lot more about components later, but for now know that each `.vue` file, is known as a Vue “component” – a mini-package of HTML, CSS, and Javascript that all work together.  This structure allows us to sprinkle in little bits of Javascript in our HTML code, so they can more easily work together.
 
 
 
