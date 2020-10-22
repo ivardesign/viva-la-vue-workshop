@@ -229,8 +229,26 @@ Down the page, in your `<style>` section, you should create the following id, an
 
 ```
 
+####  Coaches discuss:
 
+Note that the styles **automatically** update in the browser. This is not a little thing. This is one of the niceties of modern tooling. We no longer need to press refresh on the browser constantly. With Vue and other modern frontend frameworks, it makes sure to update in the browser for you as much as possible. This makes for a much smoother development workflow. (Sometimes, in some rarer cases, we still need to press refresh).
 
+Do you have blue on your page?  Great, it worked! 
+
+#### We see that it works. Now we can go back to the default css, because it is prettier.
+
+```css
+  <style>
+    #current-id{
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      color: #2c3e50;
+      margin-top: 60px;
+    }
+  </style>
+```
 
 
 
