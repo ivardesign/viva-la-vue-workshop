@@ -455,7 +455,8 @@ Put the comma back, and let's continue.
 ```html
   <div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>
 ```
-As you can see, our "template syntax," our double curly braces {{ }}, allows us to ***display** our variable data*.   
+
+As you can see, our "template syntax" (our double curly braces `{{ }}`) allows us to ***display** our variable data*.  Now let's start having some more fun with updatable data.
 
 <a name="section-3">Section III.</a>
 # Dynamic Data
