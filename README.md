@@ -471,7 +471,8 @@ We will now learn a 2nd syntax, one that makes our data much more useful.
 + What we will learn next will allow us to use logic and make our data updatable.  This is called *dynamic data*.
 
 
-#### IMPORTANT: Notice \*where\* this new code is going to go...
+#### IMPORTANT:
+Notice ***where*** this new code is going to go...
 
 **Previous Syntax** (Our "template language"):
 + We put our curly braces **between** the open/close tags of the divs. 
