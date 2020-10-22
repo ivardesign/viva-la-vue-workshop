@@ -400,7 +400,7 @@ Let’s add another variable, lastName, in out data object:
     export default {
       data(){
         return {
-          firstName: 'Kamala',
+          firstName: 'Kamala', // ← note this new comma.
 ⮕         lastName: 'Harris'
         }
       }
