@@ -198,9 +198,11 @@ B. then, we can attach a background-color to that `<div>` via our â€œcurrent-idâ
 
 Down the page, in your `<style>` section, you should create the following id, and add a `background-color`:
 ```css
-  #current-id{
-    background-color: cornflowerblue;
-  }
+  <style>
+    #current-id{
+      background-color: cornflowerblue;
+    }
+  </style>
 ```
 
 
