@@ -372,7 +372,7 @@ With Vue.js it is super simple to **use** these variables *within our HTML!*
 #### Let’s see!
 
 In the HTML, we use double curly brackets like this:
-`{{ firstName }}` ⬅ ⬅ wherever you see this, Kamala will appear.
+`{{ firstName }}` ⬅ ⬅ ⬅ ⬅ wherever you see this, Kamala will appear.
 
 
 
