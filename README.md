@@ -318,7 +318,8 @@ Let’s create some data which we can then use in our HTML.   We use our Javascr
 
 #### Currently, this is our Javascript area:
 
-+ **Note**: We will be using arrows such as these ⮕ to *help you see new code*.  You should be typing your code.  Do **\*not\*** copy these arrows into your code.
++ **Note**: We will be using arrows such as these ⮕ to ***help you see new code***.  You should be typing your code.
+  + Do **\*not\*** copy these arrows into your code.
 
 *CURRENT:*
 ```js
