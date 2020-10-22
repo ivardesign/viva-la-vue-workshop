@@ -305,26 +305,27 @@ As we can see, the `.vue` file has all 3 parts of what a browser can use: the `H
 
 For example, in our app, **App.vue is a “vue component.”** We will talk a lot more about components later, but for now know that each `.vue` file, is known as a Vue “component” – a mini-package of HTML, CSS, and Javascript, so they can more easily work together.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 <a name="section-2">Section II.</a>
 # Using Data in our App
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
