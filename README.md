@@ -252,7 +252,7 @@ Do you have blue on your page?  Great, it worked!
 + You’ll know that it worked if the text is centered, and the background is back to white.
 
 ### SPECIAL VUE USAGE Note:
-#### For each `<template>` we need a parent <div> or Vue will throw an error. This is the case for all of these frontend frameworks.
++ *For each `<template>` we need a parent `<div>` or Vue will throw an error. This is the case for all of these frontend frameworks.*
 + Notice that the `<h1>` is within a `<div>` this is critical. We always need ONE parent `<div>` in each of our `.vue` files.
 
 
