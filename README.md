@@ -409,7 +409,12 @@ Let’s add another variable, lastName, in out data object:
 
 ```
 
-
+Note the syntax:
+  a. camelCase (casing matters, begin with lowercase)
+  b. comma after firstName
+    + Many beginner will miss this and get error
+    + errors “are not bad” they are merely guiding you that you have to fix something
+  c. the values like lastName value ‘Harris’ is in quotes (single or double quotes are fine).
 
 
 
