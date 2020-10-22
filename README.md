@@ -4,6 +4,74 @@
 ##  What are Frontend Frameworks
 ---
 
+### Our App - Bouncy Bounce
+
+### Our Goals
+
+**At the end of the day you should**
+
+- Feel comfortable in the terminal
+- Have your project online
+- Be comfortable in git
+- Meet new friends to learn with
+- Find a mentor
+- Get resources to continue learning
+- Have Fun! <3
+
+**You should know**
+- what a component is and how to use one
+- how to start a new Vue project
+- the difference between your local and remote code
+- what a Frontend Framework means means
+- swhat a method is
+- what a directive is
+
+#### Share your sites at the end of the day:
+[https://gist.github.com/jendiamond/5a26b531e8e47b4aa638#file-tutorial_sharing-md](https://gist.github.com/jendiamond/5a26b531e8e47b4aa638#file-tutorial_sharing-md)
+
+#### Kindness, Consideration and Respect.
+- Be kind to yourself. You are not less than anyone else because you do not know something.
+- Be considerate. Remember that all the coaches and organizers are happily volunteering their time to help you.  
+- Respect others. Remember your coach is having patience with you so have patience with your student pair.
+
+**If you have any problems with anyone please let someone know.** [Code of Conduct](https://docs.google.com/document/d/1XEnFI3R30IiGXOpC4idb0ku3pw8OoJcBpG9mg3iKiAo/edit)
+
+---
+
+### A Little Review to Start the Day
+
+**Go over the commandline prompts with your coach so you can be sure you can communicate clearly and easily throught the day.**
+
+#### Coach, your should read these aloud and have the students do them in their terminals
++ See what directory you are currently in `pwd`
++ Navigate to the Desktop directory `cd`
++ Create a new directory called rainbow `mkdir rainbow`
++ Change into the rainbow directory `cd rainbow`
++ Create a new directory in the rainbow directory called leprechaun `mkdir leprechaun`
++ Change into the leprechaun directory `cd leprechaun`
++ Create 3 files gold.md, nyancat.md & unicorn.md (in the terminal) `touch gold.md nyancat.md unicorn.md`
++ List the files in the leprechaun directory `ls`
++ Go into sublime and add a bit of text to the gold.md file `subl .`
++ Open the file in the terminal and read it `cat gold.md`
++ Delete the gold.md file from the leprechaun directory `rm gold.md`
++ Change back into the rainbow directory `cd ../`
++ Delete the rainbow directory `rm -r rainbow`
++ Find the flag to list all the hidden files `man ls` (`ls -a`)
+
+**Hooray for The Terminal Slide Show!**
+
+**Psst** - If you ever see a **`$`** sign in this tutorial, it is not part of the code. The **`$`** sign means that you should type the code that follows it into your terminal.
+
+---
+
+![birds](https://anantasite.files.wordpress.com/2015/10/page-header-blog.png)
+# Let us Dive into Vue
+**In the first section we are going to do a small amount of code but we will learn a lot about it.**
+
+## First of all, What is Vue.js?
+#### Vue.js is a Frontend Framework. 
+Let's break down what "frontend framework" means. 
+
 
 ---
 <a name="section-2">Section II.</a>
