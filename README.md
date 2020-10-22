@@ -316,7 +316,11 @@ In Javascript, we can create logic like programming “if/else” and “loops�
 
 Let’s create some data which we can then use in our HTML.   We use our Javascript variables to store our data.  First, let’s focus on creating data.
 
-__Current__:
+#### Currently, this is our Javascript area:
+
++ **Note**: We will be using arrows ➱ to help you see new code.  You should be typing your code.  Do **\*not\*** copy these arrows into your code.
+
+*CURRENT:*
 ```js
 
   <script>
@@ -326,9 +330,24 @@ __Current__:
   </script>
 
 ```
+Let’s create your "data" section.  This is where we will declare our Javascript variables.
++ Technically “we are creating a data method which returns a data object.”
 
 
+*UPDATE:*
+```js
 
+  <script>
+    export default {
+➱     data(){
+➱       return {
+➱               // ( This is where your data will go ))
+➱       }
+➱     }
+    }
+  </script>
+
+```
 
 
 
