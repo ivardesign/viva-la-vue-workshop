@@ -373,7 +373,7 @@ With Vue.js it is super simple to **use** these variables *within our HTML!*
 
 In the HTML, we use double curly brackets like this:
 `{{ firstName }}` ← wherever you see this, Kamala will appear.
-+ This is called the "template syntax" -- it ***only displays*** the variable value.
++ This is called the "template syntax" -- it ***displays*** the variable value.
 
 So now in our HTML aka `<template>` section, we can add another sentence to use our variable.
 
@@ -456,12 +456,10 @@ Put the comma back, and let's continue.
   <div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>
 ```
 
-As you can see, our "template syntax" (our double curly braces `{{ }}`) allows us to ***display** our variable data*.  Now let's start having some more fun with updatable data.
-
 ---
 <a name="section-3">Section III.</a>
 # Dynamic Data
-## Data that Updates, using v-model.
+## Updatable Data, Two-Way Binding, Our First Directive v-model.
 ---
 
 
