@@ -186,26 +186,21 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 + You should see the text you wrote: “Welcome to the Viva-LA-Vue Workshop!” in your browser.
 
 #### Next, let's test that our css works, by adding id and styles:
-+ Note so far in our Vue.js app, we have only needed to use **standard HTML.**
-  + You will see that we also use **stardard CSS.**
++ Note so far in our Vue.js app, we have only needed to use **standard HTML.** We also use **stardard CSS.**
 + This is a major benefit to the Vue ecosystem.  You can just use the HTML and CSS that you already know. No special languages required.
 
+#### Let’s style our div: 
 
-Let’s style our div: 
+A. First, add an “id” to our `<div>`.
+`<div id="current-id">`
 
-A. First, add an “id” to it.
-`&lt;div id="current-id">`
-B. then, we can attach a background-color to that &lt;div> via our “current-id” in our &lt;style> section:
+B. then, we can attach a background-color to that `<div>` via our “current-id” in our `<style>` section:
 
-    Down the page, in your &lt;style> section, you should create the following id, and add a background-color:
-```
-    #current-id{
-
-
+Down the page, in your `<style>` section, you should create the following id, and add a `background-color`:
+```css
+  #current-id{
     background-color: cornflowerblue;
-
-
-    }
+  }
 ```
 
 
