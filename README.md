@@ -183,13 +183,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 
 #### Delete the /components folder
 + Now, take a look in your browser.
-
-You should see the text you wrote: “Welcome to the Viva-LA-Vue Workshop!” in your browser.
-
-
-
-
-[[ if I didn't write it later, discuss the 3 sections concept. ]]
++ You should see the text you wrote: “Welcome to the Viva-LA-Vue Workshop!” in your browser.
 
 ### Next, let's test that our css works, by adding id and styles:
 
