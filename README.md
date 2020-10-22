@@ -410,7 +410,7 @@ Let’s add another variable, lastName, in out data object:
 ```
 
 #### Note the Syntax:
-+ **IF you get errors**, check for the following...
+**IF you get errors**, check for the following...
   1. camelCase (casing matters, begin with lowercase)
   2. comma after firstName
   + Many beginner will miss this and get error
