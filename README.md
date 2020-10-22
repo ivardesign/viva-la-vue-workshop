@@ -318,7 +318,7 @@ Let’s create some data which we can then use in our HTML.   We use our Javascr
 
 #### Currently, this is our Javascript area:
 
-+ **Note**: We will be using arrows ➱ to help you see new code.  You should be typing your code.  Do **\*not\*** copy these arrows into your code.
++ **Note**: We will be using arrows such as these ➱ to *help you see new code*.  You should be typing your code.  Do **\*not\*** copy these arrows into your code.
 
 *CURRENT:*
 ```js
@@ -341,14 +341,29 @@ Let’s create your "data" section.  This is where we will declare our Javascrip
     export default {
 ➱     data(){
 ➱       return {
-➱               // ( This is where your data will go ))
+➱         // ( This is where your data will go ))
 ➱       }
 ➱     }
     }
   </script>
 
 ```
+Let's add a first "variable" in our data.  You should USE YOUR firstName.
 
+*CURRENT:*
+```js
+
+  <script>
+    export default {
+      data(){
+        return {
+          firstName: 'Kamala'
+        }
+      }
+    }
+  </script>
+
+```
 
 
 
