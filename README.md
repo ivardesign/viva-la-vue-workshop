@@ -166,7 +166,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 ```html
 <template>
   <div>
-    Hello from the viva-LA-vue Workshop!
+    <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
   </div>
 </template>
 
@@ -211,7 +211,7 @@ Down the page, in your `<style>` section, you should create the following id, an
 
   <template>
     <div id="current-id">
-      Hello from the viva-LA-vue Workshop!
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
     </div>
   </template>
 
@@ -281,7 +281,7 @@ In Vue.js these abilities are all wrapped together in a nice little package, the
 
   <template>
     <div id="current-id">
-      Hello from the viva-LA-vue Workshop!
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
     </div>
   </template>
 
@@ -310,8 +310,22 @@ For example, in our app, **App.vue is a “vue component.”** We will talk a lo
 # Using Data in our App
 ---
 
+For our next step, we want to add some behavior.  We will make some changes in the Javascript section.
 
+In Javascript, we can create logic like programming “if/else” and “loops” and can also store information as data. 
 
+Let’s create some data which we can then use in our HTML.   We use our Javascript variables to store our data.  First, let’s focus on creating data.
+
+__Current__:
+```js
+
+  <script>
+    export default {
+
+    }
+  </script>
+
+```
 
 
 
@@ -330,7 +344,7 @@ For example, in our app, **App.vue is a “vue component.”** We will talk a lo
 
 ---
 <a name="section-3">Section III.</a>
-# Our First Directive: v-model
+# Our First Directive: v-model  || Dynamic Data with v-model
 ---
 
 
