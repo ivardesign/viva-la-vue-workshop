@@ -270,10 +270,11 @@ Do you have blue on your page?  Great, it worked!
 + **Javascript**: Behavior.
   + Javascript is the way we create interactive behavior, to engage with the User.  For example, we can make a website that has a *Popup.*  Javascript gives us the ability to do programming in the browser.
 
-Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by allowing us to sprinkle in little bits of Javascript in our HTML code, so it is clear how they are working together.
+Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by grouping related `HTML` `CSS` and `Javascript` in `.vue` files.
 
-In every .vue file, there will be these 3 sections, the first section will be the html, between `<template>` the 2nd section, will be the `<script>` section which contains the Javasctrip, the last section is the `<style>` section, which contains the CSS. 
+In every `.vue` file, there will be these 3 sections, the 1st section will be the html, between `<template>` the 2nd section, will be the `<script>` section which contains the Javascript, the 3rd section is the `<style>` section, which contains the CSS. 
 
+This structure allows us to sprinkle in little bits of Javascript in our HTML code, so they can more easily work together.
 
 
 
