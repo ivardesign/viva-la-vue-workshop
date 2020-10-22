@@ -1289,7 +1289,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 <p>Note that the styles <strong>automatically</strong> update in the browser. This is not a little thing. This is one of the niceties of modern tooling. We no longer need to press refresh on the browser constantly. With Vue and other modern frontend frameworks, it makes sure to update in the browser for you as much as possible. This makes for a much smoother development workflow. (Sometimes, in some rarer cases, we still need to press refresh).</p>
 <p>Do you have blue on your page?  Great, it worked! </p>
 <h4 id="we-see-that-it-works-now-we-can-go-back-to-the-default-css-because-it-is-prettier">We see that it works. Now we can go back to the default css, because it is prettier.<a class="headerlink" href="#we-see-that-it-works-now-we-can-go-back-to-the-default-css-because-it-is-prettier" title="Permanent link"></a></h4>
-<p><div class="codehilite"><pre>  <span class="o">&lt;</span><span class="nt">style</span><span class="o">&gt;</span>
+<p><div class="codehilite"><pre>  <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
     <span class="nf">#current-id</span><span class="p">{</span>
       <span class="k">font-family</span><span class="o">:</span> <span class="s1">&#39;Avenir&#39;</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
       <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">font</span><span class="o">-</span><span class="n">smoothing</span><span class="o">:</span> <span class="n">antialiased</span><span class="p">;</span>
@@ -1298,7 +1298,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
       <span class="k">color</span><span class="o">:</span> <span class="m">#2c3e50</span><span class="p">;</span>
       <span class="k">margin-top</span><span class="o">:</span> <span class="m">60px</span><span class="p">;</span>
     <span class="p">}</span>
-  <span class="o">&lt;/</span><span class="nt">style</span><span class="o">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
 </pre></div>
 + You’ll know that it worked if the text is centered, and the background is back to white.</p>
 <h3 id="special-vue-usage-note">SPECIAL VUE USAGE Note:<a class="headerlink" href="#special-vue-usage-note" title="Permanent link"></a></h3>
@@ -1362,7 +1362,8 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 <p>Let’s create some data which we can then use in our HTML.   We use our Javascript variables to store our data.  First, let’s focus on creating data.</p>
 <h4 id="currently-this-is-our-javascript-area">Currently, this is our Javascript area:<a class="headerlink" href="#currently-this-is-our-javascript-area" title="Permanent link"></a></h4>
 <ul>
-<li><strong>Note</strong>: We will be using arrows such as these ➱ to help you see new code.  You should be typing your code.  Do <strong>*not*</strong> copy these arrows into your code.</li>
+<li><strong>Note*<em>: We will be using arrows such as these ⮕ to *</em><em>help you see new code</em></strong>.  You should be typing your code.</li>
+<li>Do <strong>*not*</strong> copy these arrows into your code.</li>
 </ul>
 <p><em>CURRENT:</em>
 <div class="codehilite"><pre>  <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
@@ -1376,17 +1377,103 @@ Let’s create your &ldquo;data&rdquo; section.  This is where we will declare o
 <p><em>UPDATE:</em>
 <div class="codehilite"><pre>  <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
     <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
-<span class="err">➱</span>     <span class="nx">data</span><span class="p">(){</span>
-<span class="err">➱</span>       <span class="k">return</span> <span class="p">{</span>
-<span class="err">➱</span>               <span class="c1">// ( This is where your data will go ))</span>
-<span class="err">➱</span>       <span class="p">}</span>
-<span class="err">➱</span>     <span class="p">}</span>
+<span class="err">⮕</span>     <span class="nx">data</span><span class="p">(){</span>
+<span class="err">⮕</span>       <span class="k">return</span> <span class="p">{</span>
+<span class="err">⮕</span>         <span class="c1">// ( This is where your data will go ))</span>
+<span class="err">⮕</span>       <span class="p">}</span>
+<span class="err">⮕</span>     <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
+Let&rsquo;s add a first &ldquo;variable&rdquo; in our data.  You should USE YOUR firstName.</p>
+<p><em>UPDATE AGAIN:</em>
+<div class="codehilite"><pre>  <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+      <span class="nx">data</span><span class="p">(){</span>
+        <span class="k">return</span> <span class="p">{</span>
+<span class="err">⮕</span>         <span class="nx">firstName</span><span class="o">:</span> <span class="s1">&#39;Kamala&#39;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="o">&lt;</span><span class="err">/script&gt;</span>
+</pre></div>
+In our example, we have now “declared a variable,” called <strong>firstName</strong> with a “value” of <strong>Kamala</strong>.</p>
+<p>With Vue.js it is super simple to <strong>use</strong> these variables <em>within our HTML!</em></p>
+<h4 id="lets-see">Let’s see!<a class="headerlink" href="#lets-see" title="Permanent link"></a></h4>
+<p>In the HTML, we use double curly brackets like this:
+<code>{{ firstName }}</code> ← wherever you see this, Kamala will appear.
++ This is called the &ldquo;template syntax&rdquo; &ndash; it <strong><em>only displays</em></strong> the variable value.</p>
+<p>So now in our HTML aka <code>&lt;template&gt;</code> section, we can add another sentence to use our variable.</p>
+<div class="codehilite"><pre><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span> I am a developer named {{ firstName }}. Watch me as I code in Vue.js! <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+
+<p>All together your HTML code should look like this:
+<div class="codehilite"><pre>  <span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;current-id&quot;</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Welcome to the Viva-LA-Vue Workshop!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span> I am a developer named {{ firstName }}. Watch me as I code in Vue.js! <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
+</pre></div></p>
+<p>Let’s add another variable, lastName, in out data object:
++ USE YOUR lastName.</p>
+<p><em>UPDATE:</em>
+<div class="codehilite"><pre>  <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="kr">export</span> <span class="k">default</span> <span class="p">{</span>
+      <span class="nx">data</span><span class="p">(){</span>
+        <span class="k">return</span> <span class="p">{</span>
+          <span class="nx">firstName</span><span class="o">:</span> <span class="s1">&#39;Kamala&#39;</span><span class="p">,</span> <span class="c1">// ← note this new comma.</span>
+<span class="err">⮕</span>         <span class="nx">lastName</span><span class="o">:</span> <span class="s1">&#39;Harris&#39;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
     <span class="p">}</span>
   <span class="o">&lt;</span><span class="err">/script&gt;</span>
 </pre></div></p>
-<hr />
+<h4 id="note-the-syntax">Note the Syntax:<a class="headerlink" href="#note-the-syntax" title="Permanent link"></a></h4>
+<p><strong>IF you get errors</strong>, check for the following&hellip;
+  1. camelCase (casing matters, begin with lowercase)
+  2. comma after firstName
+  + Many beginner will miss this and get error
+  + errors “are not bad” they are merely guiding you that you have to fix something
+  3. the values like lastName value ‘Harris’ is in quotes (single or double quotes are fine).</p>
+<p>If you forget the comma, you may see this in your browser:</p>
+<div class="codehilite"><pre>  <span class="nx">Failed</span> <span class="nx">to</span> <span class="nx">compile</span><span class="p">.</span>
+  <span class="p">.</span><span class="o">/</span><span class="nx">src</span><span class="o">/</span><span class="nx">App</span><span class="p">.</span><span class="nx">vue</span>
+  <span class="nx">Module</span> <span class="nb">Error</span> <span class="p">(</span><span class="nx">from</span> <span class="p">.</span><span class="o">/</span><span class="nx">node_modules</span><span class="o">/</span><span class="nx">eslint</span><span class="o">-</span><span class="nx">loader</span><span class="o">/</span><span class="nx">index</span><span class="p">.</span><span class="nx">js</span><span class="p">)</span><span class="o">:</span>
+  <span class="err">/home/one/Desktop/viva-la-vue/src/App.vue</span>
+  <span class="mi">13</span><span class="o">:</span><span class="mi">8</span> <span class="nx">error</span> <span class="nx">Parsing</span> <span class="nx">error</span><span class="o">:</span> <span class="nx">Unexpected</span> <span class="nx">token</span><span class="p">,</span> <span class="nx">expected</span> <span class="s2">&quot;,&quot;</span>
+  <span class="mi">4</span> <span class="o">|</span> <span class="k">return</span> <span class="p">{</span>
+  <span class="mi">5</span> <span class="o">|</span> <span class="nx">firstName</span><span class="o">:</span> <span class="s1">&#39;Kamala&#39;</span>
+  <span class="o">&gt;</span> <span class="mi">6</span> <span class="o">|</span> <span class="nx">lastName</span><span class="o">:</span> <span class="err">‘</span><span class="nx">Harris</span><span class="err">’</span>
+  <span class="o">|</span> <span class="o">^</span>
+  <span class="mi">7</span> <span class="o">|</span> <span class="p">}</span>
+  <span class="mi">8</span> <span class="o">|</span> <span class="p">}</span>
+  <span class="mi">9</span> <span class="o">|</span> <span class="p">}</span>
+  <span class="err">✖</span> <span class="mi">1</span> <span class="nx">problem</span> <span class="p">(</span><span class="mi">1</span> <span class="nx">error</span><span class="p">,</span> <span class="mi">0</span> <span class="nx">warnings</span><span class="p">)</span>
+</pre></div>
+
+<h4 id="temporarily-break-your-code">Temporarily Break your code:<a class="headerlink" href="#temporarily-break-your-code" title="Permanent link"></a></h4>
+<ul>
+<li>*Temporarily* remove the comma after firstName. </li>
+<li>To experiment, let&rsquo;s purposefully make an error by removing the comma between firstName &amp; lastName. </li>
+<li>Look at how clear the errors are in Vue.js.</li>
+<li><strong>Errors are a normal part of programming.</strong> <em>You did not break anything.</em> Errors are there to help guide you back to the right direction.</li>
+</ul>
+<p>Put the comma back, and let&rsquo;s continue.</p>
+<h4 id="lets-add-the-lastname-to-your-html-using-our-curly-brace-the-template-syntax-try-to-do-this-yourself">Let’s add the lastName to your HTML using our curly brace, the template syntax. Try to do this yourself.<a class="headerlink" href="#lets-add-the-lastname-to-your-html-using-our-curly-brace-the-template-syntax-try-to-do-this-yourself" title="Permanent link"></a></h4>
+<p><em>CURRENT:</em>
+<div class="codehilite"><pre>  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>I am a developer named {{ firstName }}. Watch me as I code in Vue.js!<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div></p>
+<p><em>UPDATE:</em>
+<div class="codehilite"><pre>  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+As you can see, our &ldquo;template syntax,&rdquo; our double curly braces {{ }}, allows us to display our variable data.  </p>
 <p><a name="section-3">Section III.</a></p>
-<h1 id="our-first-directive-v-model-dynamic-data-with-v-model">Our First Directive: v-model  || Dynamic Data with v-model<a class="headerlink" href="#our-first-directive-v-model-dynamic-data-with-v-model" title="Permanent link"></a></h1>
+<h1 id="dynamic-data">Dynamic Data<a class="headerlink" href="#dynamic-data" title="Permanent link"></a></h1>
+<h2 id="data-that-updates-using-v-model">Data that Updates, using v-model.<a class="headerlink" href="#data-that-updates-using-v-model" title="Permanent link"></a></h2>
+<hr />
+<h2 id="-">&mdash;<a class="headerlink" href="#-" title="Permanent link"></a></h2>
+<h2 id="-_1">&mdash;<a class="headerlink" href="#-_1" title="Permanent link"></a></h2>
 <hr />
 <hr />
 <p><a name="section-4">Section IV.</a></p>
