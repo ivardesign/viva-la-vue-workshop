@@ -380,10 +380,21 @@ So now in our HTML aka `<template>` section, we can add another sentence to use 
 <div> I am a developer named {{ firstName }}. Watch me as I code in Vue.js! </div>
 ```
 
+All together your HTML code should look like this:
+```html
+  <template>
+    <div id="current-id">
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
+      <div> I am a developer named {{ firstName }}. Watch me as I code in Vue.js! </div>
+    </div>
+  </template>
+```
 
 
-
-
+---
+---
+---
+---
 ---
 <a name="section-3">Section III.</a>
 # Our First Directive: v-model  || Dynamic Data with v-model
