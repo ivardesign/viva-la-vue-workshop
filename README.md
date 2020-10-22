@@ -81,10 +81,17 @@ Vue.js is one of the frameworks you are most likely to use in the real world, an
 
 ## Let’s get started!
 
-#### II. First, make sure the “vue” command is available in your terminal:
+### First, make sure the `vue` command is available in your terminal:
+```js
+$ npm install -g @vue/cli
+```
+#### now we can do vue commands, like $ `vue create our-app`
 
-  $ `npm install -g @vue/cli`
-now we can do vue commands, like $ vue create _____
+## Let’s create our first app
+
++ Create to a directory (aka a folder) where you want to create your new Vue app. (You may want to create it on your Desktop so you can easily find it later.)
+
+
 
 
 
