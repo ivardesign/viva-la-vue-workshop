@@ -256,11 +256,20 @@ Do you have blue on your page?  Great, it worked!
 + Notice that the `<h1>` is within a `<div>` this is critical. We always need ONE parent `<div>` in each of our `.vue` files.
 
 
+## Concept: Overview of the Browser
 
+#### The Browser’s abilities can be broken down in 3 concepts...
 
++ **HTML**: Text, Organized like a Newspaper. (Hyper-Text Markup Language)
+  + We think of each HTML page as a “document.” Much like a Newspaper, text can be organized into different sections like “header” “article” or “aside” (and many more). Because we are linking these pages together, we also use “links” and “buttons.”
 
++ **CSS**: Style. (Cascading Style Sheets)
+  + Used to define the styles for your page and how they will appear. It controls the presentation of your site through position, layout, colors, size, font, et cetera. CSS allows us to style individual elements and/or all the elements at once for our entire web-application.
 
++ **Javascript**: Behavior 
+  + Javascript is the way we create interactive behavior, to engage with the User.  For example, we can make a website that has a *Popup.*  Javascript gives us the ability to do programming in the browser.
 
+Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by allowing us to sprinkle in little bits of Javascript in our HTML code, so it is clear how they are working together.
 
 
 
