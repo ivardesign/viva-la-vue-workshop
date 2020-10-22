@@ -237,7 +237,7 @@ Do you have blue on your page?  Great, it worked!
 
 #### We see that it works. Now we can go back to the default css, because it is prettier.
 
-```css
+```html
   <style>
     #current-id{
       font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -448,6 +448,7 @@ Put the comma back, and let's continue.
 
 *CURRENT:*
 `<div>I am a developer named {{ firstName }}. Watch me as I code in Vue.js!</div>`
+
 *UPDATE:*
 `<div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>`
 
