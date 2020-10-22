@@ -390,6 +390,36 @@ All together your HTML code should look like this:
   </template>
 ```
 
+Let’s add another variable, lastName, in out data object:
++ USE YOUR lastName.
+
+*UPDATE:*
+```js
+
+  <script>
+    export default {
+      data(){
+        return {
+          firstName: 'Kamala',
+⮕         lastName: 'Harris'
+        }
+      }
+    }
+  </script>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 ---
