@@ -365,10 +365,9 @@ Let's add a first "variable" in our data.  You should USE YOUR firstName.
   </script>
 
 ```
+In our example, we have now “declared a variable,” called **firstName** with a “value” of **Kamala**.
 
-
-
-
+#### With Vue.js it is super simple to use these variables **within our HTML!**
 
 
 
