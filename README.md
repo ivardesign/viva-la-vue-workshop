@@ -79,7 +79,8 @@ We choose to use Vue.js because it is one of the most modern, one of the most   
 Vue.js is one of the frameworks you are most likely to use in the real world, and one of the quickest to learn. 
 
 
-##. Let’s get started!
+## Let’s get started!
+
 #### II. First, make sure the “vue” command is available in your terminal:
 
   $ `npm install -g @vue/cli`
