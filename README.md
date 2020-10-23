@@ -936,6 +936,44 @@ We now have a place to add new methods. We will add our first method there in a 
 
 Back above in our HTML, our `@click` handler on our button looked like this:
 
+*BEFORE*:
+```html
+  <button @click="myBoolean = !myBoolean"> Toggle Me </button> This is our boolean: {{ myBoolean }}
+```
+
+We are going to ***move our logic*** `myBoolean = !myBoolean` out of this area, and put somewhere else in our code.  It will be the ***same logic*** only inside a method below.
+
+We are moving our logic into a newly named method, called doSomething(). Then we can call the doSomething() method in our HTML.
+
+*UPDATED*:
+
+```html
+  <button @click="doSomething()"> Toggle Me </button> This is our boolean: {{ myBoolean }}
+```
+(Note: Does \*not\* yet work).
+
+
+Back to our Javascript “methods” section, let’s write our method, doSomething() there, with our same boolean logic:
+
+*BEFORE*:
+
+```html
+  methods: {
+
+  }
+```
+
+*UPDATE*:
+
+```html
+methods: {
+  doSomething(){
+    this.myBoolean = !this.myBoolean
+  }
+}
+```
+
+
 
 
 
