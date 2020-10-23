@@ -1151,7 +1151,7 @@ Notice: We ***already*** have 1 component. The code we are in App.vue is a compo
 
 ---
 
-*Back to our code*:
+**Back to our code**:  
 To create our first new component, let’s create a new folder to put new components in.
 + (this isn’t strictly necessary, but good for organization).
 
