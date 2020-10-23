@@ -702,8 +702,8 @@ Event Driven Programming:
 
 1. Events
 2. Responding to Events
-    + Event Listeners
-    + Event Handlers
+    + (a.) Event Listeners
+    + (b.) Event Handlers
 
 ---
 
@@ -736,13 +736,53 @@ Hundreds of “events” are occurring every minute.  In fact, there are so many
 ---
 
 ## Responding to Events, in detail:
-#### a. Event Listeners and b. Event Handlers
+#### (a.) Event Listeners and (b.) Event Handlers
+
+Let’s say there is an event, like a user “clicked” on a button.
+
+(a.) First, you would want to “listen” for that event.  You are writing code that is waiting for that click to happen. This is called an **Event Listener**.  It waits to listen “did a user click?”
+
+(b.) Then, if that Event Listener fires, you instruct the browser what it should do next. This is called the **Event Handler**.  The Event Handler is the response you probably recognize, such as “sending the credit card information.”
+
+All together: If a user clicked on a Pay Now Button (the event), we would listen for the click (the Event Listener waiting for the click), and then we send the credit card information (in the Event Listener).
 
 
+## Doing Events in Vue.js: Using v-on
 
+Now that we understand the concepts of Events and Event Driven Programming, let’s see our concepts in action, and learn how we write that code in Vue.js.
 
+(Let’s get back to our code...)
 
+First off, let’s create a new variable, a boolean, that we’ll use shortly.
 
+In our data() section, let’s declare a boolean and set it to ‘true’.
+
+```js
+  data() {
+    return {
+      firstName: 'Kamala',
+      lastName: 'Harris', // (note the new comma here)
+⮕     myBoolean: true
+    }
+  }
+```
+
+Now, in our template, let’s create a new div and display our boolean in there.  While we’re at it, let’s also add a button:
+
+*ADD*:
+```html
+  <div>
+    <button> Toggle Me </button> This is our boolean: {{ myBoolean }}
+  </div>
+```
+
+*UPDATE further*:
+Adding `v-on:click=“myBoolean = !myBoolean”` inside the `<button>` tag:
+```html
+  <div>
+    <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
+  </div>
+```
 
 
 
