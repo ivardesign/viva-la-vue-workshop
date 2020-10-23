@@ -661,8 +661,20 @@ We can now pepper the HTML with our Directives, in a very clean, organized way. 
 
 ---
 
+## Data with Directives:
+#### Understanding how our data() block works together with Directives:
 
-
+Our current data() block:
+```js
+  data() {
+    return {
+      firstName: 'Kamala',
+      lastName: 'Harris'
+    }
+  }
+```
+Notice our “data” block is the centralized place where all data is stored for that component. 
++ This is a very powerful, uniform way to organize your data.
 
 
 
