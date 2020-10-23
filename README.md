@@ -524,7 +524,11 @@ Now, let’s  pre-populate our `<input>` with a default value, like so (this is 
 ```
 
 In your browser, try typing over Hillary.  You can try typing in the `<input>` field, but nothing else in the page can change. **Only the `<input>` can change.**  It’s because data `value="Hillary"` is **“hard-coded”** which means it will only show the one thing that you told it to display.
-+ We cannot really update this, nor share that data with the rest of the page. :(    
+
+This standard HTML `<input>` is limited in 2 ways:
+1. We cannot update this data. :(
+2. We cannot share this data with the rest of the page.
+   
 + (Advanced: yes, we could send info to the server, but that is a whole new POST/GET cycle, and that’s having the server send us updated data).
 
 
