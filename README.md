@@ -1252,6 +1252,27 @@ We are now going to ***use*** our BouncingBall.vue component for the first time.
 
 **Note:** This is a 3 step process. You can ignore errors in your browser, until we complete step 3.
 
+1. part 1 of 3)
+“import” component:
+
+In your javascript `<script>` area, **above** ***your “export” line*** we are going to “import” the component you just built.
+  
+All together, your `<script>` area should look like this (the arrow show you the new code):
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
