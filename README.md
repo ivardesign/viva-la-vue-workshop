@@ -1252,15 +1252,14 @@ We are now going to ***use*** our BouncingBall.vue component for the first time.
 
 **Note:** This is a 3 step process. You can ignore errors in your browser, until we complete step 3.
 
-1. part 1 of 3)
-“import” component:
+#### (part 1 of 3) “import” component:
 
 In your javascript `<script>` area **above your `export` line** we are going to `import` the component you just built.
 
-**In App.vue**:
+**In App.vue**:  
 (Note: Make sure to do in `App.vue` NOT in `BouncingBall.vue`):
 
-All together, your `<script>` area should look like this:
+All together, your `<script>` area should look like this:  
 (arrows show new code):
 
 ```html 
