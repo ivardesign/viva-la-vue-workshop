@@ -583,9 +583,6 @@ Remember:
 + Standard HTML is "static."  It merely lays the text across the page.
 + Javascript is programmatic.  It can be used to update data.  It would normally take some sophisticated Javascript to update and share data across the page.
 + `v-model` is not HTML, or normal Javascript.
-
-#### Directives:
-+ `v-model` is a **special bit of Vue.js code**, called a **"Directive."**
   + This is the Vue.js doing a bunch of extremely complicated stuff, with an incredibly concise workflow.
   + We can now use `v-model` everywhere, and our "firstName" will be updated.
 
