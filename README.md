@@ -1064,10 +1064,41 @@ All together in our HTML, our `template` currently looks like this:
   </template>
 ```
 
+Let’s focus on our <img> tag:
+
+*CURRENTLY* we have this:
+```html
+  <div>
+    <img src="http://www.fillster.com/images/pictures/10p.jpg">
+  </div>
+```
+
+If you remember, previously we had setup our `myBoolean` variable, which we could toggle from true/false, with the push of our button in the browser.
+
+Now, let’s use the true/false value for something more useful.
+
+We can ***use a new Directive, `v-if`*** which allows you to put an “if statement” in your HTML.
++ We are adding an “if” to our HTML code!
 
 
+*UPDATE*:
+```html
+  <div>
+    <img v-if="myBoolean" src="http://www.fillster.com/images/pictures/10p.jpg">
+  </div>
+```
+
+In our case, what this code is saying is “if” myBoolean is true, continue to show the image. “if” myBoolean is false, do not show it any more.
++ v-if true, show the image.  
+– or –  
++ v-if false, do not show the image.
 
 
+This seems simple, and that’s the point!
++ Adding “logic”  to your HTML is NOT normal.
++ Vue.js gives you the tools to do things like this very easily, and conveniently.
+  
+We have so far seen the use of 3 Directives as we've learned.  Vue.js provides you with many more, and you can even write your own.  These Directives are an incredibly powerful tool, and are a big part of how Vue.js makes it a pleasure to write your frontend code.  
 
 
 
