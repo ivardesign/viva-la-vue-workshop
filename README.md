@@ -492,6 +492,43 @@ In our Vue.js template section, v-model will allow us to update our data in an `
 
 Let’s compare using a normal HTML `<input>` versus using the Vue.js **v-model** with an `<input>`.
 
+#### Compare Part 1: Standard HTML `<input>`
+
+Add an `<input>` in our HTML (in a new paragraph `<p>`).
+
++ Basic HTML Refresh: if we want to create an input, it’s like this:
+```html
+  <p>
+    My First Name is: <input type="text">
+  </p>
+```
+
+All together, our `<template>` area now looks like this:
+```html
+  <template>
+    <div id="current-id">
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
+      <div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>
+      <p>
+        My First Name is: <input type="text">
+      </p>
+    </div>
+  </template>
+```  
+
+Now, let’s  pre-populate our `<input>` with a default value, like so (this is still standard HTML):
+```html
+  <p>
+    My First Name is: <input type="text" value="Hillary">
+  </p>
+```
+
+In your browser, try typing over Hillary.  You can type there, but nothing else changes on the page except for the `<input>`.  It’s because data `value="Hillary"` is “hard-coded” which means it will only show the one thing that you told it to display.
++ We cannot really update this, nor share that data with the rest of the page. :(    
++ (Advanced: yes, we could send info to the server, but that is a whole new POST/GET cycle, and that’s having the server send us updated data).
+
+
+
 
 
 ---
