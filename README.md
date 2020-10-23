@@ -556,7 +556,17 @@ In Vue, we can use v-model to automatically update the data.
 ```
 **NOTE**: Make sure to press refresh on your browser.  
 
+You should see “Kamala” in the `<input>`
++ Instead of using the hard-coded `value="Hillary"` we are using a variable, “firstName” in our `<input>`.
 
+Now you are using the “firstName” variable, in our HTML. AND, it is doing MUCH MORE.
++ In your browser, try typing in the <input> box again.
+  + WHOA! firstName is being updated EVERYWHERE our “firstName” variable is being used!
+
+Temporarily:
++ For fun, you can use it many times.  Try temporarily putting in your vue file:
+  `<h2>{{ firstName }} {{ firstName }} {{ firstName }}</h2>`
+  + Then try typing in your `<input>` field (in your Browser again). They all update.
 
 
 
