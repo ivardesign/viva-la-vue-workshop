@@ -1255,10 +1255,38 @@ We are now going to ***use*** our BouncingBall.vue component for the first time.
 1. part 1 of 3)
 “import” component:
 
-In your javascript `<script>` area ***above** your `export` line* we are going to `import` the component you just built.
+In your javascript `<script>` area **above your `export` line** we are going to `import` the component you just built.
 
-All together, your `<script>` area should look like this (the arrow show you the new code):
-`
+**In App.vue**:
+(Note: Make sure to do in `App.vue` NOT in `BouncingBall.vue`):
+
+All together, your `<script>` area should look like this:
+(arrows show new code):
+
+```html 
+
+  <script>
+
+⮕  import BouncingBall from "./components/BouncingBall.vue"
+
+    export default {
+      data() {
+        return {
+          firstName: 'Kamala',
+          lastName: 'Harris',
+          myBoolean: true
+        }
+      },
+      methods: {
+        toggleMyBoolean(){
+          this.myBoolean = !this.myBoolean
+        }
+      }
+    }
+    
+  </script>
+
+```
 
 
 
