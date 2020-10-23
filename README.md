@@ -1216,12 +1216,14 @@ It has the 3 sections that we discussed earlier:
 Note: You will ***not yet see any changes in the browser.***
 + If you get an error, just keep going, we fix it below...
 
-Important: We have ***"created our component"***, but have ***not used our component, yet!***
+So far, we have ***"created our component,"*** but have ***not used our component, yet!***
 
 ---
 
-Before we continue, let’s clean up our App.vue file a bit, to make room for other code.
-Just to make room, in our App.vue file, let’s get rid of our puppy image.
+Before we continue, let’s clean up our App.vue file a bit, to make room for other code.  
+
+In our App.vue file, let’s get rid of our puppy image.
+
 
 #### In App.vue.  
 
