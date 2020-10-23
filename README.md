@@ -1105,9 +1105,10 @@ We have so far seen the use of 3 Directives as we've learned.  Vue.js provides y
 ---
 <a name="section-6">Section VI.</a>
 # Components
-## Components: Building Blocks to Assemble your Webpage
+## Components: Building Blocks to Assemble your WebApps
 ---
 
+#### Another major concept for our Frontend Frameworks
 
 
 
