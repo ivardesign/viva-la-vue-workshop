@@ -581,9 +581,11 @@ Vue.js **automatically** updates the “firstName” variable in our data() area
 
 Remember:
 + Standard HTML is "static."  It merely lays the text across the page.
-+ Javascript is programmatic.  It can be used to update data.  It would normally take some sophisticated Javascript to update and share data across the page.
++ Javascript is programmatic.  It can be used to update data.  It would normally take some sophisticated Javascript to update and share data across the page.\
+
+
 + `v-model` is not HTML, or normal Javascript.
-  + This is the Vue.js doing a bunch of extremely complicated stuff, with an incredibly concise workflow.
+  + This is the Vue.js doing a bunch of extremely complicated stuff, giving us an incredibly concise workflow.
   + We can now use `v-model` everywhere, and our "firstName" will be updated.
 
 #### This is the power of the Vue.js Frontend Framework. This is Vue.js!  🔥 🤯 🔥
