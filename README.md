@@ -876,16 +876,16 @@ Now, let’s improve our handler:
 
 Currently, we have `@click="myBoolean = !myBoolean"`
   
-In this particular case, we did something **very** simple in our handler.  All we did was toggle the boolean, which we *could fit in one line of code.*
+In this particular case, we did something **very** simple in our handler.  All we did was toggle the boolean, which *we **could** fit in one line of code.* This is rarely the case.  Our handlers are often performing much more complex actions.
 
-This is rarely the case.  Our handlers are often performing much more complex actions. MOST of the time, we want our **handlers to do much more.**  Let’s **refactor** (reorganize our code) into a method (a block of code).
+MOST of the time, we want our **handlers to do much more.**  Let’s **refactor** (reorganize our code) into a method (a block of code).
 
-***Coaches:***  if it is not clear, review what a function/method is – but basically “a discrete block of code to accomplish a task.”
+***Coaches:***  If it is not clear, review what a function/method is – but basically “a discrete block of code to accomplish a task.”
 
 #### Let’s move our boolean toggling code into a method, so that our code is more organized.
 
 
-Refactor our Event Handler into a method:
+Refactor our Event Handler into a method:  
 (All we are doing here is moving our boolean toggling code into another area).
 
 First off, let’s go back into our javascript `<script>` block, and add **another section called "methods"**:
