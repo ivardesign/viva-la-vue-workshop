@@ -569,7 +569,7 @@ Now you are using the “firstName” variable, in our HTML. And, it is doing **
 
   + Then try typing in your `<input>` field (in your Browser again). They all update!!
 
-**Term**: We are **“binding”** the `<input>` value to the variable.
+**Term**: We are “binding” the `<input>` value to the variable.
 
 Now, Vue.js **automatically** updates the “firstName” variable in our data() area, and then updates everywhere “firstName” is being used on our page.
 
