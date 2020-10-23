@@ -682,7 +682,7 @@ Notice our “data” block is the centralized place where all data is stored fo
 
 #### `v-model` “two-way binding” explained:
 1. `v-model` takes the new information you are typing in the `<input>` and ***sends*** the updated "firstName" value ***to the data block***
-2. Simultaneously `v-model` instantly ***broadcasts*** that new information ***to our variables***, like “firstName” every other place it is displayed.
+2. Simultaneously `v-model` instantly ***broadcasts*** that new data ***to our variables***, everywhere “firstName” is displayed.
 
 
 We see the use of many other Directives.
