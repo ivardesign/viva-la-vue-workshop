@@ -1077,7 +1077,7 @@ If you remember, previously we had setup our `myBoolean` variable, which we coul
 
 Now, let’s use the true/false value for something more useful.
 
-We can ***use a new Directive, `v-if`*** which allows you to put an “if statement” in your HTML.
+We can **use a new `v-if` Directive** which allows you to put an “if statement” in your HTML.
 + We are adding an “if” to our HTML code!
 
 
