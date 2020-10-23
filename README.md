@@ -523,15 +523,18 @@ Now, let’s  pre-populate our `<input>` with a default value, like so (this is 
   </p>
 ```
 
-In your browser, try typing over Hillary.  You can try typing in the `<input>` field, but nothing else in the page can change. **Only the `<input>` can change.**  It’s because data `value="Hillary"` is **“hard-coded”** which means it will only show the one thing that you told it to display.
+In your browser, try typing over Hillary.  You can try typing in the `<input>` field, but nothing else in the page can change. ***Only* the `<input>` field change.**  It’s because data `value="Hillary"` is **“hard-coded”** which means it will only show the one thing that you told it to display.
 
 This standard HTML `<input>` is limited in 2 ways:
 1. We cannot update this data. :(
 2. We cannot share this data with the rest of the page.
-   
+
 + (Advanced: yes, we could send info to the server, but that is a whole new POST/GET cycle, and that’s having the server send us updated data).
 
+Wouldn’t it be nice if we could use one of our variables?
 
++ Let’s replace our “default” attribute `value="Hillary"` with one of our variables.
++ We will use one of our **variables**, together with **new v-model syntax**.
 
 
 
