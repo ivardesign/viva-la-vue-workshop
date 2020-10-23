@@ -1021,9 +1021,9 @@ in our HTML:
 ## Using another Directive, v-if
 ---
 
-#### We have now seen the use of 2 Vue.js directives: `v-model` and `v-on`.  
+We have so far seen the use of 2 Vue.js directives: `v-model` and `v-on`.  
 
-Let’s learn about one more directive, `v-if`:  
+#### Let’s learn about one more directive, `v-if`:  
 
 `v-if` is going to give us the power to do ***"if statements" in our HTML!***
 
