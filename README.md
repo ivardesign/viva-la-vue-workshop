@@ -874,15 +874,67 @@ In your browser, test to see that it works. Make sure your boolean is still togg
 
 Now, let’s improve our handler:
 
+Currently, we have `@click="myBoolean = !myBoolean"`
+  
+In this particular case, we did something **very** simple in our handler.  All we did was toggle the boolean, which we could fit in one line of code.  
+
+This is rarely the case.  Our handlers are often performing much more complex actions. MOST of the time, we want our **handlers to do much more.**  Let’s **refactor** (reorganize our code) into a method (a block of code).
+
+***Coaches:***  if it is not clear, review what a function/method is – but basically “a discrete block of code to accomplish a task.”
+
+#### Let’s move our boolean toggling code into a method, so that our code is more organized.
 
 
+Refactor our Event Handler into a method:
+(All we are doing here is moving our boolean toggling code into another area).
+
+First off, let’s go back into our javascript `<script>` block, and add **another section called "methods"**:
 
 
+*BEFORE*:
+Currently, our entire `<script>` code section looks like this:
+
+```html
+  <script>
+    export default {
+      data() {
+        return {
+          firstName: 'Kamala',
+          lastName: 'Harris',
+          myBoolean: true
+        }
+      }
+    }
+  </script>
+```
+
+Let’s add a new section, called “methods.”
++ Note, this is the same indentation level as data()
 
 
+*UPDATE*:
+After, adding methods section:
 
+```html
+  <script>
+    export default {
+      data() {
+        return {
+          firstName: 'Kamala',
+          lastName: 'Harris',
+          myBoolean: true
+        }
+      },
+      methods: {
+        
+      }
+    }
+  </script>
+```
 
+We now have a place to add new methods. We will add our first method in a moment...
 
+Back above in our HTML, our `@click` handler on our button looked like this:
 
 
 
