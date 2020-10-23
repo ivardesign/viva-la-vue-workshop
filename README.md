@@ -551,7 +551,7 @@ In Vue, we can use v-model to automatically update the data.
 *UPDATE* (using our new Vue.js syntax):
 ```html
   <p>
-    My First Name is: <input type="text" v-model="firstName">
+    My First Name is: <input type="text" ![#f03c15](https://via.placeholder.com/15/FFFF00/000000?text=+)v-model="firstName"![#f03c15](https://via.placeholder.com/15/FFFF00/000000?text=+)>
   </p>
 ```
 
