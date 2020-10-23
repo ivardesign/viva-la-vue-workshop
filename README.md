@@ -635,7 +635,9 @@ All together, your code should currently look like this:
 ```
 
 ## Directives
-#### `v-model` is one example of a Vue.js Directive. 
+#### `v-model` is one example of a Vue.js Directive.
+
+## Concept: Directives allow you to "program" in your HTML code. 
 
 Like we said before, directives are what give HTML superpowers. It allows your HTML to go from dumb to smart. 
 + Standard HTML is merely a way to layout a document. 
