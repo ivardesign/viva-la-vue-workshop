@@ -1102,33 +1102,34 @@ This seems simple, and that’s the point!
 We have so far seen the use of 3 Directives as we've learned.  Vue.js provides you with many more, and you can even write your own.  These Directives are an incredibly powerful tool, and are a big part of how Vue.js makes it a pleasure to write your frontend code.  
 
 
-
-
-
-
-
-
-
-
----
----
----
----
----
-
-
-
-
-
-
-
-
-
 ---
 <a name="section-6">Section VI.</a>
 # Components
 ## Components: Building Blocks to Assemble your Webpage
 ---
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
+
+
 
 
 ---
