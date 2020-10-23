@@ -742,9 +742,9 @@ Let’s say there is an event, like a user “clicked” on a button.
 
 (a.) First, you would want to “listen” for that event.  You are writing code that is waiting for that click to happen. This is called an **Event Listener**.  It waits to listen “did a user click?”
 
-(b.) Then, if that Event Listener fires, you instruct the browser what it should do next. This is called the **Event Handler**.  The Event Handler is the response you probably recognize, such as “sending the credit card information.”
+(b.) Then, if that Event Listener fires, you instruct the browser what it should do next. This is called the **Event Handler**.  The Event Handler is the response you probably recognize as a user, such as “seeing that someone 'liked' a photo.”
 
-All together: If a user clicked on a Pay Now Button (the event), we would listen for the click (the Event Listener waiting for the click), and then we send the credit card information (in the Event Listener).
+All together: If a user clicked on a "like" Button (the event), we would listen for the click (the Event Listener waiting for the click), and then (in  the Event Handler)we could "show a new 'like'."
 
 
 ## Doing Events in Vue.js: Using v-on
@@ -777,7 +777,7 @@ Now, in our template, let’s create a new div and display our boolean in there.
 ```
 
 Let’s improve our code further. Inside your <button> tag, we will add another Vue.js directive, v-on:
-  
+
 *UPDATE further*:
 Adding `v-on:click=“myBoolean = !myBoolean”` inside the `<button>` tag:
 ```html
