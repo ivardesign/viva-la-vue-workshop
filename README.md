@@ -1118,7 +1118,7 @@ Another central concept of frontend web-development, is something called **“co
 
 We didn’t discuss it before, but when you were coding in your App.vue file, you were in fact building your first Vue.js “component.”
 
->> You can think of components as Lego blocks. When we build web-apps, we take those blocks (the "component") and assemble them into a complete website.
+> You can think of components as Lego blocks. When we build web-apps, we take those blocks (the "component") and assemble them into a complete website.
 
 Unlike legos, we don't neccesarily get any out of the box.  We often need to craft our own individual blocks, and then assemble them into the whole of our website.
 
