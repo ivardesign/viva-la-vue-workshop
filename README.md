@@ -1201,6 +1201,21 @@ Open up BouncingBall.vue and add the following...
 
 ```
 
+What we have pasted here is simply a `<div>` with some css styles applied to it.
+
+#### This is structured just like App.vue. 
+
+It has the 3 sections that we discussed earlier:
+1. the HTML `<template>`   
+2. a Javascript `<script>` section, and  
+3. an area for our CSS `<styles>`
+  
+  + THIS IS OUR BouncingBall.vue component!
+
+Note: You will ***not yet see any changes*** in the browser.
++ If you get an error, just keep going, we fix it below...
+
+Important: We have ***"created our component"***, but have ***not used our component*, yet**.
 
 
 
