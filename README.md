@@ -1210,12 +1210,12 @@ It has the 3 sections that we discussed earlier:
 2. a Javascript `<script>` section, and  
 3. an area for our CSS `<styles>`
   
-  + THIS IS OUR BouncingBall.vue component!
+  + This is *OUR* BouncingBall.vue component!
 
-Note: You will ***not yet see any changes*** in the browser.
+Note: You will ***not yet see any changes in the browser.***
 + If you get an error, just keep going, we fix it below...
 
-Important: We have ***"created our component"***, but have ***not used our component*, yet**.
+Important: We have ***"created our component"***, but have ***not used our component, yet!***
 
 
 
