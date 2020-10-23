@@ -830,7 +830,17 @@ In your browser, try clicking the “Toggle Me” button.
 
 ---
 
+#### Minor Code Improvement, for reusability.
+Let’s take a moment to slightly improve both our Listener and our Handler.
 
+---
+
+##  Improve our listener:
+#### Shortcut: `v-on` is the same as the `@` symbol.
+
+First off, We showed you `v-on`, but “listeners” are such a common part of our code, that there is a shortcut for it. Anywhere you want ***add a listener***, we can simply use the `@` sign instead of `v-on`.
++ Before: We can write our listeners like this: v-on:click=“…”
++ Updated: We can write our listeners like this: @click=“…”
 
 
 
