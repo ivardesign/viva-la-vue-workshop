@@ -1120,8 +1120,6 @@ We didn’t discuss it before, but when you were coding in your App.vue file, yo
 
 > You can think of components as Lego blocks. When we build web-apps, we take those blocks (the "component") and assemble them into a complete website.
 
-Unlike legos, we don't neccesarily get any out of the box.  We often need to craft our own individual blocks, and then assemble them into the whole of our website.
-
 For now, you can think of components as mostly the “visual parts” of your website.
 
 #### Component Example:
@@ -1133,7 +1131,14 @@ Wouldn’t it be nice to make this once, and then just reuse it everywhere in yo
 
 If you created this, we would call it, your **Button Component**.
 
+---
 
+When you buy a box of Legos, there are different shapes that you can use any way you want. 
+However, our first step is to build our own legos.
+
+Unlike legos, we don't neccesarily get any out of the box.  We often need to craft our own individual blocks, and then assemble them into the whole of our website.
+
+---
 
 
 
