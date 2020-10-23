@@ -825,7 +825,7 @@ In your browser, try clicking the “Toggle Me” button.
 2. `v-on:click` ➙ which type of listener, in this case, a “click”.
   
 **Event Handler:**  
-  \
+  
 3. `v-on:click=“myBoolean = !myBoolean”` ➙ An "event handler" can do anything. In this case we are simply toggling myBoolean’s true/false.
 
 ---
