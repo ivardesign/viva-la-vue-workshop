@@ -580,9 +580,9 @@ Vue.js **automatically** updates the “firstName” variable in our data() area
 `v-model` is your first taste of a Vue.js **"Directive"**. This little `v-model` line ***makes our HTML "dynamic."***
 
 Remember:
-
 + Standard HTML is "static."  It merely lays the text across the page.
 + Javascript is programmatic.  It can be used to update data.  It would normally take some sophisticated Javascript to update and share data across the page.
+
 + `v-model` is not HTML, or normal Javascript.
 + `v-model` is a **special bit of Vue.js code**, called a **"Directive."**
   + This is the Vue.js doing a bunch of extremely complicated stuff, with an incredibly concise workflow.
