@@ -699,10 +699,11 @@ Understanding “event driven programming” is the key “to thinking” as a w
 ---
 
 Event Driven Programming:
-I. Events
-II. Responding to Events 
-  A. Event Listeners
-  B. Event Handlers
+
+1. Events
+2. Responding to Events
+  + Event Listeners
+  + Event Handlers
 
 
 
