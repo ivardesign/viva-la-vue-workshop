@@ -1112,8 +1112,8 @@ We have so far seen the use of 3 Directives as we've learned.  Vue.js provides y
 
 In this tutorial so far, we’ve spent a lot of time talking about Directives, little bits of code that give your HTML superpowers, so that your HTML goes from a simple document layout methodology, to having programmatic abilities, where you can do things like have “if” statements in your HTML.
 
+#### Components are a Fundamental Concept of Modern Frontend Frameworks.
 ## Concept: Components are building blocks we create to weave together our larger WebApp.
-#### Components are a Fundamental Concept of Modern Frontend Frameworks
 
 Another central concept of frontend web-development, is something called **“components.”** In fact, if there is one thing that distinguishes modern frontend frameworks from everything before it, it is the concept of components, and how you use them to assemble your web-apps (short for "web-applications", aka your website).
 
