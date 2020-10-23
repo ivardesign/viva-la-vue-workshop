@@ -1488,7 +1488,7 @@ But, wouldn’t it be nice if they were slightly more flexible? Wouldn’t it be
 
 Currently, we are updating the color of **all** of the `BouncingBall.vue` components.
 
-> Wouldn’t it be nice to keep **most** ***of the components the same***, but ***give each one a different color***?  That feels like it would make our components **much more useful**.  Allowing them to share **most** of the same functionality, while making them individually unique.
+> Wouldn’t it be nice to keep ***most* of the components the same**, but ***give each one a different color***?  That feels like it would make our components **much more useful**.  Allowing them to share **most** of the same functionality, while making them individually unique.
 
 Well, we can!  We can create components that give us **all the value of reusability**, while being **flexible enough to give us useful variations**.
 
