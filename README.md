@@ -805,9 +805,9 @@ Last, part 3 of 3, we write the code to tell it what to do. This is the Event Ha
 
 All together, your code should currently look like this:
 ```html
-<div>
-  <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
-</div>
+  <div>
+    <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
+  </div>
 ```
 
 In your browser, try clicking the “Toggle Me” button.
@@ -820,13 +820,33 @@ In your browser, try clicking the “Toggle Me” button.
 (the concept together with the Vue.js code)
 
 **Event Listener:**
+
 1. `v-on` ➙ add a listener.
 2. `v-on:click` ➙ which type of listener, in this case, a “click”.
   
 **Event Handler:**
+
 3. `v-on:click=“myBoolean = !myBoolean”` ➙ An "event handler" can do anything. In this case we are simply toggling myBoolean’s true/false.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
