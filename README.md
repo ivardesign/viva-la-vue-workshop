@@ -1087,6 +1087,7 @@ We can **use a new `v-if` Directive** which allows you to put an “if statement
     <img v-if="myBoolean" src="http://www.fillster.com/images/pictures/10p.jpg">
   </div>
 ```
+#### The `v-if` in our HTML is now \*reading the `myBoolean` value.\*
 
 In our case, what this code is saying is “if” myBoolean is true, continue to show the image. “if” myBoolean is false, do not show it any more.
 + v-if true, show the image.  
