@@ -685,25 +685,11 @@ Notice our “data” block is the centralized place where all data is stored fo
 2. Simultaneously `v-model` instantly ***broadcasts*** that new data ***to our variables***, everywhere “firstName” is displayed.
 
 
-We see the use of many other Directives.
-To truly understand Directives, we first need to understand a critical concept called event driven programming, and a concept we need to think about called “events.”  
+We see the use of many other **Directives**.
+
+To truly understand Directives, we first need to understand a critical concept called **“events.”** and the workflow around it, **event driven programming**. 
+
 Understanding “event driven programming” is the key “to thinking” as a web-developer.  When you understand “event driven programming” you will appreciate the tools that Vue.js gives you.
-
-## Events
-#### Events and Event Driven Programming 
-
-
-
-
-
-
-
----
----
----
----
----
-
 
 
 ---
@@ -711,6 +697,24 @@ Understanding “event driven programming” is the key “to thinking” as a w
 # Events
 ## Events and Event Driven Programming
 ---
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+
+
+
+
 
 
 ---
