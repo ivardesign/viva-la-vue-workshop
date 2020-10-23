@@ -591,6 +591,49 @@ Remember:
 
 #### This is the power of the Vue.js Frontend Framework. This is Vue.js!  🔥 🤯 🔥
 
+---
+
+### Try it again yourself.
+
+In the same `<p>` add a lastName `<input>` on your own.
+End result: `My Last Name: <input type="text" v-model="lastName">`
+
+All together, your code should currently look like this:
+```html
+  <template>
+    <div id="current-id">
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
+      <div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>
+      <p>
+        My First Name is: <input type="text" v-model="firstName">
+        <br>
+        My Last Name is: <input type="text" v-model="lastName">
+      </p>
+    </div>
+  </template>
+
+  <script>
+    export default {
+      data() {
+        return {
+          firstName: 'Kamala',
+          lastName: 'Harris'
+        }
+      }
+    }
+  </script>
+
+  <style>
+    #current-id{
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      color: #2c3e50;
+      margin-top: 60px;
+    }
+  </style>
+```
 
 
 
