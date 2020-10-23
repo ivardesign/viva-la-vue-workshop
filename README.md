@@ -975,7 +975,7 @@ methods: {
 
 This should result in the same action as before. It merely toggles myBoolean.  Give it a try!
 
-### This is the exact same logic.
+#### This is the exact same logic.
 + The code has one important change.
 
 When ***in the Javascript area*** of our code, ***we need to use `this.` to access variables*** in the data() section.
@@ -987,10 +987,33 @@ Review, after: `this.myBoolean = !this.myBoolean`
 In fact, we usually just "cut & paste" the code from the HTML into your Javascript method.  Then we simply add `this.` in front of the variables.
 
 + ADVANCED NOTE:  
-(For those familiar with traditional Javascript(:  
+(For those familiar with vanilla Javascript):  
 We are seeing a special Vue.js implementation of `this.` It will make your life much easier later on, but might not be the behavior you've come to expect from `this` in our traditional use of Javascript.   
 
+#### One last fix: Improve our Method Name.
 
+It was important for you to understand that methods “do something” in your code, so we gave our method a very generic doSomething() name.
+
+However doSomething() is actually a terrible method name, because it is so undescriptive. *Method names should always be descriptive*, describing what they are doing.
+
+As a final fix for this section, go ahead and rename your method.  Update the name to `toggleMyBoolean()`.  Let’s remember to do so in your Javascript’s method area, and in your HTML.
+
+**Updated all together:**
+
+in Javascript:
+
+```js
+methods: {
+  toggleMyBoolean(){
+    this.myBoolean = !this.myBoolean
+  }
+}
+```
+
+in our HTML:
+```html
+  <button @click="toggleMyBoolean()"> Toggle Me </button> This is our boolean: {{ myBoolean }}
+```
 
 
 
