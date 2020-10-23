@@ -793,13 +793,13 @@ Adding `v-on:click=“myBoolean = !myBoolean”` inside the `<button>` tag:
 #### Break Down our `v-on:click=“myBoolean = !myBoolean”` into understandable steps:
 Our `v-on:click=“myBoolean = !myBoolean”` directive encapsulates the 3 steps of ***Event Driven Programming*** we just learned about earlier.
 
-First v-on, part 1 of 3:
+First v-on, ***part 1 of 3***:
 + “v-on” is basically saying, “start paying attention here” aka start to “listen” here.
 
-Second, v-on:click, part 2 of 3:
+Second, v-on:click, ***part 2 of 3***:
 + The word “click” is telling Vue which event to listen for. In this case, we are listening for the button to be clicked.
 
-Last, part 3 of 3, we write the code to tell it what to do. This is the Event Handler.
+Last, ***part 3 of 3***, we write the code to tell it what to do. This is the Event Handler.
 + In this case, `myBoolean = !myBoolean` our event handler is saying “toggle our boolean back and forth from true to false.”
 
 
