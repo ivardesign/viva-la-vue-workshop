@@ -1123,11 +1123,15 @@ We didn’t discuss it before, but when you were coding in your App.vue file, yo
 Unlike legos, we don't neccesarily get any out of the box.  We often need to craft our own individual blocks, and then assemble them into the whole of our website.
 
 For now, you can think of components as mostly the “visual parts” of your website.
-+ A good example of a “component” that you might want to create, is the look and feel of your own individual Button. 
+
+#### Component Example:
+A good example of a “component” that you might want to create is a Button.  But, imagine that ***your button*** had a particular look and feel that belonged to your website. 
   
 Of course all websites have buttons, but let’s say that for your website you want your buttons to all have rounded corners, a double pinstripe border, and a fun balloon🎈emoji.
     
 Wouldn’t it be nice to make this once, and then just reuse it everywhere in your site? That’s what components are all about.
+
+If you created this, we would call it, your **Button Component**.
 
 
 
