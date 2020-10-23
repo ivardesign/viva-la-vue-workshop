@@ -1143,11 +1143,80 @@ Unlike legos, we don't neccesarily get any out of the box.  We often need to cra
 #### Creating a new component:
 We are going to create a "Bouncing Ball" component.
 
-Notice: We ***already*** have 1 component. The code we are in, App.vue is a component.  In fact, it is our main component.
+Notice: We ***already*** have 1 component. The code we are in App.vue is a component.  In fact, it is our main component.  
   
 + In Vue.js anything that ends with .vue is a component.
 + We will now create additional components, which can be used within our main App.vue component.
 + Note: The concept of “components” exists in all of our modern frontend frameworks. It just happens to be exceptionally clear in Vue.js, that ***Vue.js components are one simple .vue file***.
+
+---
+
+*Back to our code*:
+To create our first new component, let’s create a new folder to put new components in.
++ (this isn’t strictly necessary, but good for organization).
+
+If you look at the directories and files in your app, you should see a `src/` directory (this stands for “source”).
+
+In the `src/` directory, create a new directory called `components/`
+
+In your terminal, you could do:
+ $ `mkdir src/components/`
+
+Now, let’s create a new file. A file that ends with `.vue` is our new component!  Since we are creating a bouncing ball, why don’t we call it `BouncingBall.vue`.
+
+In your terminal, you could do:
+$ `touch src/components/BouncingBall.vue`
++ We just created a new `BouncingBall.vue` file, inside our new `components/` directory.
+
+Open up BouncingBall.vue and add the following...
++ We are doing some coding for you.  You can just ***copy & paste this into BouncingBall.vue***.
+
+```html
+
+  <template>
+    <div class="ball"></div>
+  </template>
+
+  <script>
+
+    export default {
+
+    }
+
+  </script>
+
+  <style scoped>
+
+    body {
+      display: flex;
+      justify-content: center;
+    }
+
+    .ball {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #FF5722;
+    }
+
+  </style>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
