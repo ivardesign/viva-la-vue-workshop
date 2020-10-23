@@ -831,7 +831,7 @@ In your browser, try clicking the “Toggle Me” button.
 ---
 
 #### Minor Code Improvement, for reusability.
-Let’s take a moment to slightly improve both our Listener and our Handler.
+Let’s take a moment to slightly improve both our Listener and our Handler...
 
 ---
 
@@ -839,11 +839,33 @@ Let’s take a moment to slightly improve both our Listener and our Handler.
 #### Shortcut: `v-on` is the same as the `@` symbol.
 
 First off, We showed you `v-on`, but “listeners” are such a common part of our code, that there is a shortcut for it. Anywhere you want ***add a listener***, we can simply use the `@` sign instead of `v-on`.
-+ Before: We can write our listeners like this: v-on:click=“…”
-+ Updated: We can write our listeners like this: @click=“…”
++ **Before**: We wrote our listeners like this: v-on:click=“…”
++ **NEW**: We can write our listeners like this: @click=“…”
+
+Let's replace this in our code:
+
+*BEFORE*:
+```html
+  <div>
+    <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
+  </div>
+```
+
+*UPDATED*:
+```html
+  <div>
+    <button @click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
+  </div>
+```
+
+**Note**: We simple do `@click`
 
 
-
+In your browser, test to see that it works. Should be exactly the same. Make sure your boolean is still toggling in the browser.
++ It is a minor thing, but since we use listeners everywhere, this is how you will see it in the majority of your Vue.js code.
++ Since there are a ton of events that can happen in the browser, there are a ton of  event listeners you could listen for.
+  + As the developer, you can listen for the User to “click” “hover” “scroll” “mouseover” “play” “pause” “drag” “hover” “submit” and many, many more.
+  + Therefore, in Vue.js, you can listen by doing `@click=“...”` `@hover =“...”` `@scroll=“...”` etc.
 
 
 
