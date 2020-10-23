@@ -1511,6 +1511,15 @@ Notice that up until now, all of our data() has been isolated inside each indivi
 In our case, App.vue is the “parent” component, and `BouncingBall.vue` is the “child” component.
 + This means we can pass data *from App.vue* ***into*** `BouncingBall.vue`.
 
+Let’s set that up!  
+
+#### Passing "prop data" from `App.vue` into `BouncingBall.vue`
+
+Passing Props is a 2 step process:
+1. In the child `BouncingBall.vue` we setup ***which data to expect*** from the parent `App.vue`.
+2. Then, in `App.vue` when we will ***pass data into each `<bouncing-ball>` component.***
+
+
 
 
 
