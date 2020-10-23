@@ -1466,9 +1466,9 @@ In your `BouncingBall.vue` let’s focus on the data() section:
 
 Let’s take a look at your new code.  The way we’ve set it up, in our data object, we are simply using a CSS hex color to define the color of the ball.
 
-In `BouncingBall.vue`, let look at our data() section:
+In `BouncingBall.vue`, let play with our data() section:
 
-+ Currently we have '#FF5722' which is orange   
++ Currently we have `#FF5722` which is CSS `orange`.   
 + Go ahead and change that to any valid CSS color. It can be a hex code, or the valid CSS color names if you know them.
   + You could go here to grab any CSS color: [https://www.december.com/html/spec/color.html](https://www.december.com/html/spec/color.html)
 
