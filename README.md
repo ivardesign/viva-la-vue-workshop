@@ -777,7 +777,7 @@ Now, in our template, let’s create a new div and display our boolean in there.
   </div>
 ```
 
-Let’s improve our code further. Inside your <button> tag, we will add another Vue.js directive, v-on:
+Let’s improve our code further. Inside your `<button>` tag, we will add another Vue.js directive, v-on:
 
 *UPDATE further*:
 
@@ -932,7 +932,7 @@ After, adding methods section:
   </script>
 ```
 
-We now have a place to add new methods. We will add our first method in a moment...
+We now have a place to add new methods. We will add our first method there in a moment, but first let's start writing that method.
 
 Back above in our HTML, our `@click` handler on our button looked like this:
 
