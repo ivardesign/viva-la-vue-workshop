@@ -1108,9 +1108,26 @@ We have so far seen the use of 3 Directives as we've learned.  Vue.js provides y
 ## Components: Building Blocks to Assemble your WebApps
 ---
 
-#### Another major concept for our Frontend Frameworks
+#### Components: A fundamental concept for Frontend Frameworks
 
+In this tutorial so far, we’ve spent a lot of time talking about Directives, little bits of code that give your HTML superpowers, so that your HTML goes from a simple document layout methodology, to having programmatic abilities, where you can do things like have “if” statements in your HTML.
 
+Another central concept of frontend web-development, is something called **“components.”** In fact, if there is one thing that distinguishes modern frontend frameworks from everything before it, it is the concept of components, and how you use them to assemble your web-apps (short for "web-applications").
+
+#### In short, `components` are small individual building blocks you use to assemble into a complete website.
+
+We didn’t discuss it before, but when you were coding in your App.vue file, you were in fact building your first Vue.js “component.”
+
+>> You can think of components as Lego blocks. When we build web-apps, we take those blocks (the "component") and assemble them into a complete website.
+
+Unlike legos, we don't neccesarily get any out of the box.  We often need to craft our own individual blocks, and then assemble them into the whole of our website.
+
+For now, you can think of components as mostly the “visual parts” of your website.
++ A good example of a “component” that you might want to create, is the look and feel of your own individual Button. 
+  
+Of course all websites have buttons, but let’s say that for your website you want your buttons to all have rounded corners, a double pinstripe border, and a fun balloon🎈emoji.
+    
+Wouldn’t it be nice to make this once, and then just reuse it everywhere in your site? That’s what components are all about.
 
 
 
