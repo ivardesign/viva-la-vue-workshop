@@ -712,7 +712,8 @@ Programming for the web is all about responding to **“events”** that are occ
 As a developer, you ***can*** **decide** to do something if one of these events occur.  We call this **responding to events.**
 
 Let’s think of examples of some events, and what the responses might be. The events often come from a User, and we decide on a response:
-Example Events from User |  Possible response from us, the developer
+
+Example Events from User |  Possible response from us, the Developer
 --- | ---
 Click button |  “like” a photo.
 Click button |  User goes to the next page.
@@ -722,9 +723,11 @@ Click “pay now” button |  Send the User’s credit card information to the s
 There are also tons of events happening that the User is not aware of:
 Example Event not from the User |  Possible response from us, the developer
 --- | ---
-Timer going off every 30 seconds to tell browser to check for timeline updates | browser asks your server for updated timeline data.
 Browser senses that a document changed | automatically saves the document
+Timeline update timer goes off | browser asks your server for updated timeline data.
 Browser collecting information on what websites you have visited | your data being shared back to the server, to collect information on you.
+
+
 Hundreds of “events” are occurring every minute.  In fact, there are so many that you couldn’t possibly track all of them. As a developer, you may choose to “respond” to some of those events. 
 
 
