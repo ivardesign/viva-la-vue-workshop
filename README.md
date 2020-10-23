@@ -975,11 +975,10 @@ methods: {
 
 This should result in the same action as before. It merely toggles myBoolean.  Give it a try!
 
-This is the exact same logic.
+### This is the exact same logic.
++ The code has one important change.
 
-### The code has one important change.
-
-When ***in the Javascript area*** of our code, ***we need to use “this.” to access variables*** in the data() section.
+When ***in the Javascript area*** of our code, ***we need to use `this.` to access variables*** in the data() section.
 
 Review, before: `myBoolean = !myBoolean`
 
