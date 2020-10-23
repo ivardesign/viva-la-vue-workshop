@@ -1233,7 +1233,8 @@ In our App.vue file, let’s get rid of our puppy image.
     <img v-if="myBoolean" src="http://www.fillster.com/images/pictures/10p.jpg">
   </div>
 ```
-***REPLACE WITH***:
+***REPLACE WITH***:  
+
 In its place, let’s create a `<div>`, with the stuff inside it to be centered (so the next thing we do is in the middle of the page):
 
 ```html
