@@ -16,7 +16,7 @@
 - how to start a new Vue project
 - the difference between your local and remote code
 - what a Frontend Framework means means
-- swhat a method is
+- what a method is
 - what a directive is
 
 #### Share your sites at the end of the day:
@@ -1108,7 +1108,7 @@ We have so far seen the use of 3 Directives as we've learned.  Vue.js provides y
 ## Components: Building Blocks to Assemble your WebApps
 ---
 
-#### Components: A fundamental concept for Frontend Frameworks
+#### Components: A Fundamental Concept of Frontend Frameworks
 
 In this tutorial so far, we’ve spent a lot of time talking about Directives, little bits of code that give your HTML superpowers, so that your HTML goes from a simple document layout methodology, to having programmatic abilities, where you can do things like have “if” statements in your HTML.
 
