@@ -576,7 +576,7 @@ Vue.js **automatically** updates the “firstName” variable in our data() area
 ---
 
 ## Our First Directive:
-v-model is your first taste of a Vue.js "Directive". This little `v-model` line ***makes our HTML "dynamic."***
+v-model is your first taste of a Vue.js **"Directive"**. This little `v-model` line ***makes our HTML "dynamic."***
 
 
 
