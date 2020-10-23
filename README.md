@@ -1287,11 +1287,11 @@ All together, your `<script>` area should look like this:
 
 ```
 
-#### Declare the Component (Step 2 of 3):
+#### Register the Component (Step 2 of 3):
 
 Back inside your “export default” area, we are going to add a new section, called “components” at the same level as “methods” and “data”.  Then, we will “register” that component.
 
-"Declaring a component" means we are **telling App.vue** that **BouncingBall.vue exists** (but we ***have not used it yet***).  
+"Registering a component" means we are **telling App.vue** that **BouncingBall.vue exists, and is a component** (but we ***have not used it yet***).  
 
 ```js
 
@@ -1315,8 +1315,8 @@ Back inside your “export default” area, we are going to add a new section, c
 
 ```
 
-+ Creating a new "Components" section
-+ Declaring the `BouncingBall.vue` component
++ Here, we are creating a new "Components" section
++ Registering the `BouncingBall.vue` component
   + Means we are letting `App.vue` know that the `BouncingBall.vue` *we just imported* ***is a component.***
 + However, we have not "used" the `BouncingBall.vue` component, yet.
 
@@ -1326,9 +1326,6 @@ We can finally use our component in our App.vue!
   
 **In App.vue** back up top in our HTML, in the centered `<div>` we created a minute ago, we are going to do something cool.  We will **USE our BouncingBall.vue component**.
 
-
-
-
 **In App.vue**:  
 
 *CURRENTLY*:  
@@ -1337,9 +1334,8 @@ We can finally use our component in our App.vue!
 
   </div>
 ```
-Let’s use our component in here:  
-NOTE: For now, this is just a simple ball.  Our ball will ***not*** bounce, yet.
-
+Let’s use our `BouncingBall.vue` component in here:  
++ NOTE: For now, this is just a simple ball.  Our ball will ***not*** bounce, yet.
 
 *UPDATED*:
 
