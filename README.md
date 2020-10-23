@@ -835,7 +835,7 @@ Let’s take a moment to slightly improve both our Listener and our Handler...
 
 ---
 
-##  Improve our listener:
+##  Improve our Listener:
 #### Shortcut: `v-on` is the same as the `@` symbol.
 
 First off, We showed you `v-on`, but “listeners” are such a common part of our code, that there is a shortcut for it. Anywhere you want ***add a listener***, we can simply use the `@` sign instead of `v-on`.
@@ -867,6 +867,12 @@ In your browser, test to see that it works. Should be exactly the same. Make sur
   + As the developer, you can listen for the User to “click” “hover” “scroll” “mouseover” “play” “pause” “drag” “hover” “submit” and many, many more.
   + Therefore, in Vue.js, you can listen by doing `@click=“...”` `@hover =“...”` `@scroll=“...”` etc.
 
+---
+
+##  improve our Handler:
+#### Move our handler code into a method.
+
+Now, let’s improve our handler:
 
 
 
