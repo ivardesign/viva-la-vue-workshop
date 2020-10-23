@@ -973,10 +973,17 @@ methods: {
 }
 ```
 
+This should result in the same action as before. It merely toggles myBoolean.  Give it a try!
 
+#### This is the exact same logic.  But the code has one important change.
 
+NOTE, that since we are ***in the Javascript area we need to use “this.”*** to access variables in the data() section.
 
+Review, before: `myBoolean = !myBoolean`
 
+Review, after: `this.myBoolean = !this.myBoolean`
+
+In fact, you could have cut & pasted the code from your HTML to your Javascript method, and then simply added the "this." in front of the variables.
 
 
 
