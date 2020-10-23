@@ -1252,7 +1252,7 @@ We are now going to ***use*** our BouncingBall.vue component for the first time.
 
 **Note:** This is a 3 step process. You can ignore errors in your browser, until we complete step 3.
 
-#### (part 1 of 3) “import” component:
+#### “import” component (Step 1 of 3):
 
 In your javascript `<script>` area **above your `export` line** we are going to `import` the component you just built.
 
@@ -1287,7 +1287,36 @@ All together, your `<script>` area should look like this:
 
 ```
 
+#### Declare the Component (Step 2 of 3):
 
+Back inside your “export default” area, we are going to add a new section, called “components” at the same level as “methods” and “data”.  Then, we will “register” that component.
+
+We are now **telling App.vue** that **BouncingBall.vue exists** (but we ***have not used it yet***).  
++ Creating a new "Components" section
++ Declaring the `BouncingBall.vue` component
+  + Means we are letting `App.vue` know that the `BouncingBall.vue` we just imported, is a component.
+
+```js
+
+  export default {
+    data() {
+      return {
+        firstName: 'Kamala',
+        lastName: 'Harris',
+        myBoolean: true
+      }
+    },
+    methods: {
+      toggleMyBoolean(){
+        this.myBoolean = !this.myBoolean
+      }
+⮕  },           // (← notice the new comma here )
+⮕  components: {
+⮕    BouncingBall
+⮕  }
+  }
+
+```
 
 
 
