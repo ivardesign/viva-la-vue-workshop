@@ -1140,7 +1140,7 @@ Unlike legos, we don't neccesarily get any out of the box.  We often need to cra
 
 ---
 
-#### Creating a new component:
+## Creating a new component:
 We are going to create a "Bouncing Ball" component.
 
 Notice: We ***already*** have 1 component. The code we are in App.vue is a component.  In fact, it is our main component.  
@@ -1245,6 +1245,8 @@ In its place, let’s create a `<div>` and center what is inside the `<div>`:
 ```
 
 ---
+
+## Using our Component:
 
 We are now going to ***use*** our BouncingBall.vue component for the first time.  
 
