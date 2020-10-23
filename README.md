@@ -1349,10 +1349,11 @@ Let’s use our `BouncingBall.vue` component in here:
 
 WOW! Notice what we did here? Once we created a component, we can now use it in our code ***just like other element of HTML!***  
 
-Just like `<div>`, `<h1>`, `<img>` and `<p>` tags, we have not *created our own new version of HTML elements.* THIS IS the power of components!
+Just like `<div>`, `<h1>`, `<img>` and `<p>` tags, we have ***created our own new version of HTML elements.***
 
+> THIS IS the power of components!  We have created our own HTML elements!
 
-Moreso, now that we’ve created this building block, we can use it over and over again. Try using the `<bouncing-ball>` component a few times. See how easy it is to reuse.
+Moreso, now that we’ve created this `BouncingBall.vue` building block, we can use it over and over again. Try using the `<bouncing-ball>` component a few times. See how easy it is to reuse.
 
 (just for fun, try this...)  
 **UPDATE**:
