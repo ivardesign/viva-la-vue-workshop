@@ -1031,7 +1031,9 @@ Using “conditionals” like an “if” statement is something that is usually
     
 Now, watch as the `v-if` directive gives your HTML programming logic, as we use an “if” statement in our HTML.
 
-First off, let’s setup a new div area, with an image in it. Below your other HTML code, add this:
+First off, let’s setup a new div area, with an image in it.  
+
+Below your other HTML code, add this:
 
 ```html
   <div>
