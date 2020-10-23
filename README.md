@@ -888,10 +888,10 @@ MOST of the time, we want our **handlers to do much more.**  Let’s **refactor*
 Refactor our Event Handler into a method:  
 (All we are doing here is moving our boolean toggling code into another area).
 
-First off, let’s go back into our javascript `<script>` block, and add **another section called "methods"**:
+First off, let’s go back into our javascript `<script>` block, and ***add another section called "methods"***:
 
 
-*BEFORE*:
+*BEFORE*:  
 Currently, our entire `<script>` code section looks like this:
 
 ```html
@@ -912,7 +912,7 @@ Let’s add a new section, called “methods.”
 + Note, this is the same indentation level as data()
 
 
-*UPDATE*:
+*UPDATE*:  
 After, adding methods section:
 
 ```html
