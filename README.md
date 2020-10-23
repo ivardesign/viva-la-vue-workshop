@@ -1291,10 +1291,7 @@ All together, your `<script>` area should look like this:
 
 Back inside your “export default” area, we are going to add a new section, called “components” at the same level as “methods” and “data”.  Then, we will “register” that component.
 
-We are now **telling App.vue** that **BouncingBall.vue exists** (but we ***have not used it yet***).  
-+ Creating a new "Components" section
-+ Declaring the `BouncingBall.vue` component
-  + Means we are letting `App.vue` know that the `BouncingBall.vue` we just imported, is a component.
+"Declaring a component" means we are **telling App.vue** that **BouncingBall.vue exists** (but we ***have not used it yet***).  
 
 ```js
 
@@ -1310,7 +1307,7 @@ We are now **telling App.vue** that **BouncingBall.vue exists** (but we ***have 
       toggleMyBoolean(){
         this.myBoolean = !this.myBoolean
       }
-⮕  },           // (← notice the new comma here )
+⮕  },   // (← notice the new comma here )
 ⮕  components: {
 ⮕    BouncingBall
 ⮕  }
@@ -1318,18 +1315,39 @@ We are now **telling App.vue** that **BouncingBall.vue exists** (but we ***have 
 
 ```
 
++ Creating a new "Components" section
++ Declaring the `BouncingBall.vue` component
+  + Means we are letting `App.vue` know that the `BouncingBall.vue` *we just imported* ***is a component.***
++ However, we have not "used" the `BouncingBall.vue` component, yet.
+
+#### Using the Component (Step 3 of 3):
+
+We can finally use our component in our App.vue!
+  
+**In App.vue** back up top in our HTML, in the centered `<div>` we created a minute ago, we are going to do something cool.  We will **USE our BouncingBall.vue component**.
 
 
 
 
+**In App.vue**:  
+
+*CURRENTLY*:  
+```html
+  <div style="display:flex; align-items: center; justify-content: center;">
+
+  </div>
+```
+Let’s use our component in here:  
+NOTE: For now, this is just a simple ball.  Our ball will ***not*** bounce, yet.
 
 
+*UPDATED*:
 
-
-
-
-
-
+```html
+  <div style="display:flex; align-items: center; justify-content: center;">
+    <bouncing-ball></bouncing-ball>
+  </div>
+```
 
 
 
