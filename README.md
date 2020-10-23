@@ -559,7 +559,7 @@ In Vue, we can use v-model to automatically update the data.
 You should see “Kamala” in the `<input>`
 + Instead of using the hard-coded `value="Hillary"` we are using a variable, “firstName” in our `<input>`.
 
-Now you are using the “firstName” variable, in our HTML. AND, it is doing MUCH MORE.
+Now you are using the “firstName” variable, in our HTML. And, it is doing ***much more***.
 + In your browser, try typing in the <input> box again.
 + WHOA! firstName is being updated EVERYWHERE our “firstName” variable is being used!
 
@@ -567,8 +567,9 @@ Now you are using the “firstName” variable, in our HTML. AND, it is doing MU
 
   `<h2>{{ firstName }} {{ firstName }} {{ firstName }}</h2>`
 
-  + Then try typing in your `<input>` field (in your Browser again). They all update.
+  + Then try typing in your `<input>` field (in your Browser again). They all update!!
 
+We are **“binding”** the `<input>` value to the variable.
 
 
 
