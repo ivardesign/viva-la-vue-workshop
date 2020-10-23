@@ -1236,7 +1236,7 @@ In our App.vue file, let’s get rid of our puppy image.
 ***REPLACE WITH***:  
 
 In its place, let’s create a `<div>` and center what is inside the `<div>`:  
-+ (so the next thing we do is in the middle of the page):
+(So that what we place inside here, will be in the middle of the page):
 
 ```html
   <div style="display:flex; align-items: center; justify-content: center;">
