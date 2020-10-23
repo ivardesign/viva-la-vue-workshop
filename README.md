@@ -790,8 +790,8 @@ Adding `v-on:click=“myBoolean = !myBoolean”` inside the `<button>` tag:
 
 ---
 
-## Break Down our `v-on:click=“myBoolean = !myBoolean”` into 3 understandable parts:
-#### Our `v-on:click=“myBoolean = !myBoolean”` directive encapsulates the 3 steps of ***Event Driven Programming*** we just learned about earlier.
+### Break Down our `v-on:click=“myBoolean = !myBoolean”` into 3 understandable parts:
+Our `v-on:click=“myBoolean = !myBoolean”` directive encapsulates the 3 steps of ***Event Driven Programming*** we just learned about earlier.
 
 First v-on, part 1 of 3:
 + “v-on” is basically saying, “start paying attention here” aka start to “listen” here.
