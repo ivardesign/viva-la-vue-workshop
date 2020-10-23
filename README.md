@@ -953,11 +953,11 @@ We are moving our logic into a newly named method, called doSomething(). Then we
 (Note: Does \*not\* yet work).
 
 
-Back to our Javascript “methods” section, let’s write our method, doSomething() there, with our same boolean logic:
+Back to our Javascript “methods” section, let’s write that doSomething() method, with our same boolean logic we can reuse:
 
 *BEFORE*:
 
-```html
+```js
   methods: {
 
   }
@@ -965,7 +965,7 @@ Back to our Javascript “methods” section, let’s write our method, doSometh
 
 *UPDATE*:
 
-```html
+```js
 methods: {
   doSomething(){
     this.myBoolean = !this.myBoolean
