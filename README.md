@@ -984,7 +984,7 @@ Review, before: `myBoolean = !myBoolean`
 
 Review, after: `this.myBoolean = !this.myBoolean`
 
-In fact, you could have cut & pasted the code from your HTML to your Javascript method, and then simply added the "this." in front of the variables.
+In fact, we usually just "cut & paste" the code from the HTML into your Javascript method.  Then we simply added the "this." in front of the variables.
 
 
 
