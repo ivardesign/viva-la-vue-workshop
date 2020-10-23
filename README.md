@@ -803,11 +803,11 @@ Last, part 3 of 3, we write the code to tell it what to do. This is the Event Ha
 + In this case, `myBoolean = !myBoolean` our event handler is saying “toggle our boolean back and forth from true to false.”
 
 
-All together, your code should look like this:
+All together, your code should currently look like this:
 ```html
-  <div>
-    <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
-  </div>
+<div>
+  <button v-on:click=“myBoolean = !myBoolean”> Toggle Me </button> This is our boolean: {{ myBoolean }}
+</div>
 ```
 
 In your browser, try clicking the “Toggle Me” button.
