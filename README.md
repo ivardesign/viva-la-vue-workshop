@@ -571,6 +571,8 @@ Now you are using the “firstName” variable, in our HTML. And, it is doing **
 
 We are **“binding”** the `<input>` value to the variable.
 
+Now, Vue.js **automatically** updates the “firstName” variable in our data() area, and then updates everywhere “firstName” is being used on our page.
+
 
 
 
