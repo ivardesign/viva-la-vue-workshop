@@ -1378,7 +1378,7 @@ Right now, ***we** are going to do some coding for you.*  Let us give you an upd
 
 (Note: This looks like a lot of code, but it is mostly just some fancy use of normal CSS.)
 
-*UPDATE* BouncingBall.vue:  
+***UPDATE* BouncingBall.vue:**  
 Copy/paste this into BouncingBall.vue:  
 (You can completely overwrite what was there before.)
 
@@ -1448,9 +1448,29 @@ Copy/paste this into BouncingBall.vue:
 
 ```
 
+We’ve improved our `BouncingBall.vue` component. Now we should see them bounce!
 
+Let’s play with what we’ve given you!  
 
+In your `BouncingBall.vue` let’s focus on the data() section:
 
+```js
+
+  data() {
+    return {
+      ballcolor: '#FF5722'
+    }
+  },
+
+```
+
+Let’s take a look at your new code.  The way we’ve set it up, in our data object, we are simply using a CSS hex color to define the color of the ball.
+
+In `BouncingBall.vue`, let look at our data() section:
+
++ Currently we have '#FF5722' which is orange   
++ Go ahead and change that to any valid CSS color. It can be a hex code, or the valid CSS color names if you know them.
+  + You could go here to grab any CSS color: [https://www.december.com/html/spec/color.html](https://www.december.com/html/spec/color.html)
 
 
 
