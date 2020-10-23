@@ -984,9 +984,11 @@ Review, before: `myBoolean = !myBoolean`
 
 Review, after: `this.myBoolean = !this.myBoolean`
 
-In fact, we usually just "cut & paste" the code from the HTML into your Javascript method.  Then we simply added the "this." in front of the variables.
+In fact, we usually just "cut & paste" the code from the HTML into your Javascript method.  Then we simply add `this.` in front of the variables.
 
-
++ ADVANCED NOTE:  
+(For those familiar with traditional Javascript(:  
+We are seeing a special Vue.js implementation of `this.` It will make your life much easier later on, but might not be the behavior you've come to expect from `this` in our traditional use of Javascript.   
 
 
 
