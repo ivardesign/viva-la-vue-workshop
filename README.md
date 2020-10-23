@@ -702,8 +702,10 @@ Event Driven Programming:
 
 1. Events
 2. Responding to Events
-  + Event Listeners
-  + Event Handlers
+  a. Event Listeners
+  b. Event Handlers
+
+---
 
 ## Concept: Overview of Browser Events:
 
@@ -729,9 +731,12 @@ Browser senses that a document changed | automatically saves the document
 Timeline update timer goes off | browser asks your server for updated timeline data.
 Browser collecting information on what websites you have visited | your data being shared back to the server, to collect information on you.
 
-
 Hundreds of “events” are occurring every minute.  In fact, there are so many that you couldn’t possibly track all of them. As a developer, you may choose to “respond” to some of those events. 
 
+---
+
+## Responding to Events, in detail:
+#### a. Event Listeners and b. Event Handlers
 
 
 
