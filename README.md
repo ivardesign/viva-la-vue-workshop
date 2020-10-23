@@ -709,7 +709,7 @@ Event Driven Programming:
 
 Programming for the web is all about responding to **“events”** that are occurring in the browser, like “clicking,” “scrolling,” “hovering,” and many others that are going on behind the scenes.
 
-As a developer, you can decide to do something with one of these events.  We call this **responding to events.**
+As a developer, you ***can*** **decide** to do something if one of these events occur.  We call this **responding to events.**
 
 Let’s think of examples of some events, and what the responses might be. The events often come from a User, and we decide on a response:
 Example Events from User |  Possible response from us, the developer
