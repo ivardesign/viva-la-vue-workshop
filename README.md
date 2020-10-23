@@ -634,9 +634,28 @@ All together, your code should currently look like this:
   </style>
 ```
 
+## Directives
+#### `v-model` is one example of a Vue.js Directive. 
 
+Like we said before, directives are what give HTML superpowers. It allows your HTML to go from dumb to smart. 
++ Standard HTML is merely a way to layout a document. 
++ With Vue.js, you are able to ***program in your HTML code.*** That’s pretty cool!
 
+We can now pepper the HTML with our Directives, in a very clean, organized way. This becomes an incredibly powerful tool as we start to build out a more useful web-application.
 
+*Directives* are one of the central concepts of Vue.js. They make coding in Vue a pleasure. You will see how powerful they are as we start coding.
+
+### Aside:
+####  Coaches, this might also be new to you...
++ Doing anything dynamic like this used to be extremely time consuming and hard.   
++ DOM manipulation was the way to do everything.
+  + Finding elements in the DOM
+  + Replacing elements in the DOM
+    + It becomes incredibly time consuming and complex.
++ What we just did would have required a ton of work.
+  + Not to mention if you wanted to update the data in multiple places, it could be an enormous amount of code.
+
+#### Vue.js and other Frontend Frameworks give us a new way to develop in the browser, make our code more concise, and make it easier to use.
 
 
 
