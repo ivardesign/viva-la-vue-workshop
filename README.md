@@ -1149,8 +1149,6 @@ Notice: We ***already*** have 1 component. The code we are in App.vue is a compo
 + We will now create additional components, which can be used within our main App.vue component.
 + Note: The concept of “components” exists in all of our modern frontend frameworks. It just happens to be exceptionally clear in Vue.js, that ***Vue.js components are one simple .vue file***.
 
----
-
 **Back to our code**:  
 To create our first new component, let’s create a new directory, where we will put our new components.
 + (this isn’t strictly necessary, but good for organization).
