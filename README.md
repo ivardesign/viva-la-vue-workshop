@@ -1374,13 +1374,14 @@ We can see that we not only created our component, our little reusable building 
 
 Now that we understand how easy it is to reuse or component, it is a nice time to improve on our ball, and see how the improvement propagates through all of our BouncingBall.vue components.
 
-Right now, ***we** are going to do some coding for you.*  Let us give you an updated version of the BouncingBall.vue component (which you will cut and paste from below), so we can focus on a new concept: data flows between components.
+Right now, ***we** are going to do some coding for you.*  Let us give you an updated version of the `BouncingBall.vue` component (which you will cut and paste from below), so we can focus on a new concept: data flows between components.
 
 (Note: This looks like a lot of code, but it is mostly just some fancy use of normal CSS.)
 
-*UPDATE BouncingBall.vue*:  
-+ Copy/paste this into BouncingBall.vue:  
-  (You can completely overwrite what was there before.)
+*UPDATE* BouncingBall.vue:  
+Copy/paste this into BouncingBall.vue:  
+(You can completely overwrite what was there before.)
+
 
 ```html
 <template>
