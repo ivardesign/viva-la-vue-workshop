@@ -1504,10 +1504,12 @@ Well, we can!  We can create components that give us **all the value of reusabil
 
 Notice that up until now, all of our data() has been isolated inside each individual component.
 
-## Concept: "Props" allow us to send data from outside \*into\* each component.
+## Concept: "Props" allow us to send data \*into\* each component.
 
+**Props** are like data that come from ***outside*** of the component. Specifically, it comes from a parent component.
 
-
+In our case, App.vue is the “parent” component, and `BouncingBall.vue` is the “child” component.
++ This means we can pass data ***from App.vue** into `BouncingBall.vue`.
 
 
 
