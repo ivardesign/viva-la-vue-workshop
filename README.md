@@ -1324,7 +1324,7 @@ Back inside your “export default” area, we are going to add a new section, c
 
 #### Using the Component (Step 3 of 3):
 
-We can finally use our component in our App.vue!
+We can finally use our new `BouncingBall.vue` component in our `App.vue`!
   
 **In App.vue** back up top in our HTML, in the centered `<div>` we created a minute ago, we are going to do something cool.  We will **USE our BouncingBall.vue component**.
 
