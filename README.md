@@ -536,6 +536,44 @@ Wouldn’t it be nice if we could use one of our variables?
 + Let’s replace our “default” attribute `value="Hillary"` with one of our variables.
 + We will use one of our **variables**, together with **new v-model syntax**.
 
+## Let’s try using Vue’s v-model:
+#### Compare Part 2: Vue.js improved `<input>` functionality.
+
+In Vue, we can use v-model to automatically update the data.
+
+*CURRENT* (regular HTML):
+```html
+  <p>
+    My First Name is: <input type="text" value="Hillary">
+  </p>
+```
+
+*UPDATE* (using our new Vue.js syntax):
+```html
+  <p>
+    My First Name is: <input type="text" v-model="firstName">
+  </p>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
