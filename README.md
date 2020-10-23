@@ -861,8 +861,9 @@ Let's replace this in our code:
 **Note**: We simple do `@click`
 
 
-In your browser, test to see that it works. Should be exactly the same. Make sure your boolean is still toggling in the browser.
-+ It is a minor thing, but since we use listeners everywhere, this is how you will see it in the majority of your Vue.js code.
+In your browser, test to see that it works. Should work exactly the same.
+Make sure your boolean is still toggling in the browser.
++ This `@` symbol is a minor thing, but since we use listeners everywhere, this is how you will see it in the majority of your Vue.js code.
 + Since there are a ton of events that can happen in the browser, there are a ton of  event listeners you could listen for.
   + As the developer, you can listen for the User to “click” “hover” “scroll” “mouseover” “play” “pause” “drag” “hover” “submit” and many, many more.
   + Therefore, in Vue.js, you can listen by doing `@click=“...”` `@hover =“...”` `@scroll=“...”` etc.
