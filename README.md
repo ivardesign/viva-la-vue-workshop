@@ -702,8 +702,8 @@ Event Driven Programming:
 
 1. Events
 2. Responding to Events
-..a. Event Listeners
-..b. Event Handlers
+  __a. Event Listeners
+  __b. Event Handlers
 
 ---
 
