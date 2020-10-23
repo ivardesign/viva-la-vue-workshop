@@ -1509,7 +1509,7 @@ Notice that up until now, all of our data() has been isolated inside each indivi
 **Props** are like data that come from ***outside*** of the component. Specifically, it comes from a parent component.
 
 In our case, App.vue is the “parent” component, and `BouncingBall.vue` is the “child” component.
-+ This means we can pass data **from App.vue** ***into*** `BouncingBall.vue`.
++ This means we can pass data *from App.vue* ***into*** `BouncingBall.vue`.
 
 
 
