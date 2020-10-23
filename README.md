@@ -1468,32 +1468,29 @@ Let’s take a look at your new code.  The way we’ve set it up, in our data ob
 
 In `BouncingBall.vue`, let play with our data() section:
 
-+ Currently we have `#FF5722` which is CSS `orange`.   
-+ Go ahead and change that to any valid CSS color. It can be a hex code, or the valid CSS color names if you know them.
-  + You could go here to grab any CSS color: [https://www.december.com/html/spec/color.html](https://www.december.com/html/spec/color.html)
+Currently we have `#FF5722` which is CSS `orange`.  Go ahead and change that to any valid CSS color. It can be a hex code, or the valid CSS color names if you know them.
 
++ You could go here to grab any CSS color: [https://www.december.com/html/spec/color.html](https://www.december.com/html/spec/color.html) 
++ For example, try replacing `#FF5722` with any of these valid CSS colors:
+  + `red`
+  + `LightGreen`
+  + `cornflowerblue`
+  + `#FFA07A`
+  + `rgb(255,215,0)`
 
+The CSS works in the data section here because of some of the coding we did for you called “style binding” (which we will not get to today), but for now let’s continue to focus on this data section.
 
+#### Updating the `ballcolor` data variable in the `BouncingBall.vue` updates all of our `<bouncing-ball></bouncing-ball>` instances.
 
+As you would expect, once you’ve updated the color inside your `BouncingBall.vue` component, you’ll notice that ALL 3 times we used `<bouncing-ball>` updates to that new color. So far, that’s kind of the point of components: ***that they are all uniform.***
 
+But, wouldn’t it be nice if they were slightly more flexible? Wouldn’t it be nice to **give them each individual colors**?
 
+Currently, we are updating the color of **all** of the BouncingBall.vue components.
 
+Wouldn’t it be nice to keep MOST of the components the same, but ***give each one a different color***?  That feels like it would make our components **much more useful**.  Allowing them to share **most** of the same functionality, while making them individually unique.
 
-
----
----
----
----
----
-
-
-
-
-
-
-
-
-
+#### Well, we can!  We can create reusable components, which can be flexible enough to differ from one another to be much more useful.
 
 
 ---
@@ -1501,6 +1498,30 @@ In `BouncingBall.vue`, let play with our data() section:
 # Props
 ## Props: Passing Data Between Components
 ---
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
