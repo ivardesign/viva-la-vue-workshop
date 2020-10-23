@@ -1152,19 +1152,19 @@ Notice: We ***already*** have 1 component. The code we are in App.vue is a compo
 ---
 
 **Back to our code**:  
-To create our first new component, let’s create a new folder to put new components in.
+To create our first new component, let’s create a new directory, where we will put our new components.
 + (this isn’t strictly necessary, but good for organization).
 
 If you look at the directories and files in your app, you should see a `src/` directory (this stands for “source”).
 
 In the `src/` directory, create a new directory called `components/`
 
-In your terminal, you could do:
+In your terminal, you could do:  
  $ `mkdir src/components/`
 
 Now, let’s create a new file. A file that ends with `.vue` is our new component!  Since we are creating a bouncing ball, why don’t we call it `BouncingBall.vue`.
 
-In your terminal, you could do:
+In your terminal, you could do:  
 $ `touch src/components/BouncingBall.vue`
 + We just created a new `BouncingBall.vue` file, inside our new `components/` directory.
 
