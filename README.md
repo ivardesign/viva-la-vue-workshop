@@ -707,7 +707,7 @@ Event Driven Programming:
 
 #### Concept: Overview of Browser Events:
 
-+ 1. Events and 2. Responding to Events
+    + (1) Events and (2) Responding to Events
 
 Programming for the web is all about responding to **“events”** that are occurring in the browser, like “clicking,” “scrolling,” “hovering,” and many others that are going on behind the scenes.
 
