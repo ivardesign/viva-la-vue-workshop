@@ -1291,7 +1291,8 @@ All together, your `<script>` area should look like this:
 
 Back inside your “export default” area, we are going to add a new section, called “components” at the same level as “methods” and “data”.  Then, we will “register” that component.
 
-"Registering a component" means we are **telling App.vue** that **BouncingBall.vue exists, and is a component** (but we ***have not used it yet***).  
+"Registering a component" means we are **telling App.vue** that **BouncingBall.vue exists, and *is a component***  
+(but we ***have not used it yet***).  
 
 ```js
 
@@ -1316,8 +1317,9 @@ Back inside your “export default” area, we are going to add a new section, c
 ```
 
 + Here, we are creating a new "Components" section
-+ Registering the `BouncingBall.vue` component
-  + Means we are letting `App.vue` know that the `BouncingBall.vue` *we just imported* ***is a component.***
++ "Registering" the `BouncingBall.vue` component means we are letting `App.vue` know about `BouncingBall.vue`
+  1. Let's `App.vue` know that `BouncingBall.vue` *we just imported* **exists**.
+  2. Let's `App.vue` know that `BouncingBall.vue` **is a component.**
 + However, we have not "used" the `BouncingBall.vue` component, yet.
 
 #### Using the Component (Step 3 of 3):
