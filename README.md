@@ -550,7 +550,7 @@ In Vue, we can use v-model to automatically update the data.
 
 *UPDATE* (using our new Vue.js syntax):
 ```html
-  <p>
+  <p>                                    ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇
     My First Name is: <input type="text" v-model="firstName">
   </p>
 ```
