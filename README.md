@@ -676,11 +676,13 @@ Our current data() block:
 Notice our “data” block is the centralized place where all data is stored for that component. 
 + This is a very powerful, uniform way to organize your data.
 
-v-model is in fact so powerful, that it might be under appreciated.
-+ v-model in particular is doing ***two*** things: 
-+ This particularly important concept is called “two way binding.”
-  1. `v-model` takes the new information you are typing in the `<input>` and update the firstName variable **in the data() block**
-  2. Simultaneously `v-model` instantly ***broadcasts*** that new information ***to our variables***, like “firstName” every other place it is displayed.
+`v-model` is in fact so powerful, that it might be under appreciated.
++ `v-model` in particular is doing ***two*** things: 
++ This particularly important concept is called “two-way binding.”
+
+#### `v-model` “two-way binding” explained:
+1. `v-model` takes the new information you are typing in the `<input>` and update the firstName variable **in the data() block**
+2. Simultaneously `v-model` instantly ***broadcasts*** that new information ***to our variables***, like “firstName” every other place it is displayed.
 
 
 We see the use of many other Directives.
