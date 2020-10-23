@@ -571,9 +571,10 @@ Now you are using the “firstName” variable, in our HTML. And, it is doing **
 
 **Term**: We are *“binding”* the `<input>` value to the variable.
 
-Now, Vue.js **automatically** updates the “firstName” variable in our data() area, and then updates everywhere “firstName” is being used on our page.
+Vue.js **automatically** updates the “firstName” variable in our data() area, and then updates everywhere “firstName” is being used on our page.
 
-
+## Our First Directive:
+v-model is your first real taste of what Vue.js can do for you. With this one easy line, we ***have made our HTML "dynamic."***
 
 
 
