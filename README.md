@@ -876,7 +876,7 @@ Now, let’s improve our handler:
 
 Currently, we have `@click="myBoolean = !myBoolean"`
   
-In this particular case, we did something **very** simple in our handler.  All we did was toggle the boolean, which we could fit in one line of code.  
+In this particular case, we did something **very** simple in our handler.  All we did was toggle the boolean, which we *could fit in one line of code.*
 
 This is rarely the case.  Our handlers are often performing much more complex actions. MOST of the time, we want our **handlers to do much more.**  Let’s **refactor** (reorganize our code) into a method (a block of code).
 
