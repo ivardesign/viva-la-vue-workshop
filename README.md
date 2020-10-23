@@ -1140,6 +1140,15 @@ Unlike legos, we don't neccesarily get any out of the box.  We often need to cra
 
 ---
 
+#### Creating a new component:
+We are going to create a "Bouncing Ball" component.
+
+**Notice**: We ***already*** have 1 component. The code we are in, App.vue is a component.  In fact, it is our main component.
+  
++ In Vue.js anything that ends with .vue is a component.
++ We will now create additional components, which can be used within our main App.vue component.
++ Note: The concept of “components” exists in all of our modern frontend frameworks. It just happens to be exceptionally clear in Vue.js, that ***Vue.js components are one simple .vue file***.
+
 
 
 
