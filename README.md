@@ -676,6 +676,19 @@ Our current data() block:
 Notice our “data” block is the centralized place where all data is stored for that component. 
 + This is a very powerful, uniform way to organize your data.
 
+v-model is in fact so powerful, that it might be under appreciated.
++ v-model in particular is doing ***two*** things: 
++ This particularly important concept is called “two way binding.”
+  1. `v-model` takes the new information you are typing in the `<input>` and update the firstName variable **in the data() block**
+  2. Simultaneously `v-model` instantly ***broadcasts*** that new information ***to our variables***, like “firstName” every other place it is displayed.
+
+
+We see the use of many other Directives.
+To truly understand Directives, we first need to understand a critical concept called event driven programming, and a concept we need to think about called “events.”  
+Understanding “event driven programming” is the key “to thinking” as a web-developer.  When you understand “event driven programming” you will appreciate the tools that Vue.js gives you.
+
+## Events
+#### Events and Event Driven Programming 
 
 
 
