@@ -1218,7 +1218,33 @@ Note: You will ***not yet see any changes in the browser.***
 
 Important: We have ***"created our component"***, but have ***not used our component, yet!***
 
+---
 
+Before we continue, let’s clean up our App.vue file a bit, to make room for other code.
+Just to make room, in our App.vue file, let’s get rid of our puppy image.
+
+#### In App.vue.  
+
+***REMOVE***:
+```html
+  <div>
+    <img v-if="myBoolean" src="http://www.fillster.com/images/pictures/10p.jpg">
+  </div>
+```
+***REPLACE WITH***:
+In its place, let’s create a `<div>`, with the stuff inside it to be centered (so the next thing we do is in the middle of the page):
+
+```html
+  <div style="display:flex; align-items: center; justify-content: center;">
+
+  </div>
+```
+
+---
+
+We are now going to ***use*** our BouncingBall.vue component for the first time.  
+
+**Note:** This is a 3 step process. You can ignore errors in your browser, until we complete step 3.
 
 
 
