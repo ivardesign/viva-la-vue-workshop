@@ -1502,6 +1502,10 @@ Well, we can!  We can create components that give us **all the value of reusabil
 ## Props: Passing Data Between Components
 ---
 
+Notice that up until now, all of our data() has been isolated inside each individual component.
+
+## Concept: "Props" allow us to send information \*\*into\*\* each component.
+
 
 
 
