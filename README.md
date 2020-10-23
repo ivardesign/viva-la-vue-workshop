@@ -1509,7 +1509,7 @@ Notice that up until now, all of our data() has been isolated inside each indivi
 **Props** are like data that come from ***outside*** of the component. Specifically, it comes from a parent component.
 
 In our case, App.vue is the “parent” component, and `BouncingBall.vue` is the “child” component. This means we can pass data *from App.vue* ***into*** `BouncingBall.vue`.
-+ Note: "Props" is short for "Properties."  We are passing "properties" into a component.
++ Note: "Props" is short for "Properties."  We are passing *data properties* into a component.
 
 Let’s set that up!  
 
@@ -1518,6 +1518,12 @@ Let’s set that up!
 Passing Props is a 2 step process:
 1. In the child `BouncingBall.vue` we setup ***which data to expect*** from the parent `App.vue`.
 2. Then, in `App.vue` when we will ***pass data into each `<bouncing-ball>` component.***
+
+Back in our code, let’s see how this is done...
+
+#### We will be replacing the `BouncingBall.vue` component's data, with "prop data" that will come from outside, from the the parent `App.vue`component.
+
+First, let's focus on our `BouncingBall.vue` component.
 
 
 
