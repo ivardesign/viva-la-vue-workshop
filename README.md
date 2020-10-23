@@ -776,6 +776,8 @@ Now, in our template, let’s create a new div and display our boolean in there.
   </div>
 ```
 
+Let’s improve our code further. Inside your <button> tag, we will add another Vue.js directive, v-on:
+  
 *UPDATE further*:
 Adding `v-on:click=“myBoolean = !myBoolean”` inside the `<button>` tag:
 ```html
