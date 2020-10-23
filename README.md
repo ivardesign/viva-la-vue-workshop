@@ -1015,35 +1015,79 @@ in our HTML:
   <button @click="toggleMyBoolean()"> Toggle Me </button> This is our boolean: {{ myBoolean }}
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
----
----
----
----
-
-
-
-
-
-
 ---
 <a name="section-5">Section V.</a>
 # Programming Logic in our HTML
+## Using another Directive, v-if
 ---
+
+#### We have now seen the use of 2 Vue.js directives: `v-model` and `v-on`.  
+
+Let’s learn about one more directive, `v-if`:  
+
+`v-if` is going to give us the power to do ***"if statements" in our HTML!***
+
+Using “conditionals” like an “if” statement is something that is usually reserved for programming logic.  That means that it would only be available to you in Javascript, not in your HTML.
+    
+Now, watch as the `v-if` directive gives your HTML programming logic, as we use an “if” statement in our HTML.
+
+First off, let’s setup a new div area, with an image in it. Below your other HTML code, add this:
+
+```html
+  <div>
+    <img src="http://www.fillster.com/images/pictures/10p.jpg">
+  </div>
+```
+We’ve just added an image from the internet. Check it out in your browser.
+
+All together in our HTML, our `template` currently looks like this:
+
+```html
+  <template>
+    <div id="current-id">
+      <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
+      <div>I am a developer named {{ firstName }} {{ lastName }}. Watch me as I code in Vue.js!</div>
+      <p>
+        My First Name is: <input type="text" v-model="firstName">
+        <br>
+        My Last Name is: <input type="text" v-model="lastName">
+      </p>
+      <div>
+        <button @click="toggleMyBoolean()"> Toggle Me </button> This is our boolean: {{ myBoolean }}
+      </div>
+      <div>
+        <img src="http://www.fillster.com/images/pictures/10p.jpg">
+      </div>
+    </div>
+  </template>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+---
+---
+---
+---
+
+
+
+
+
+
+
 
 
 ---
