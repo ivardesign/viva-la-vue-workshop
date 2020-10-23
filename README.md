@@ -1343,10 +1343,106 @@ Let’s use our `BouncingBall.vue` component in here:
 
 ```html
   <div style="display:flex; align-items: center; justify-content: center;">
-    <bouncing-ball></bouncing-ball>
+⮕   <bouncing-ball></bouncing-ball>
   </div>
 ```
 
+WOW! Notice what we did here? Once we created a component, we can now use it in our code, ***just like other element of HTML!***  
+
+Just like <div>, <h1>, <img> and <p> tags, we have not *created our own new version of HTML elements.* THIS IS the power of components!
+
+
+Moreso, now that we’ve created this building block, we can use it over and over again. Try using the <bouncing-ball> component a few times. See how easy it is to reuse.
+
+(just for fun, try this...)  
+**UPDATE**:
+
+```html
+<div style="display:flex; align-items: center; justify-content: center;">
+  <bouncing-ball></bouncing-ball>
+  <bouncing-ball></bouncing-ball>
+  <bouncing-ball></bouncing-ball>
+</div>
+```
+
+We can see that we not only created our component, our little reusable building blocks, but it is suuuuuper easy to use those building blocks over and over again.
+
+### Improve Our Component:
+
+Now that we understand how easy it is to reuse or component, it is a nice time to improve on our ball, and see how the improvement propagates through all of our BouncingBall.vue components.
+
+Right now, ***we** are going to do some coding for you.*  Let us give you an updated version of the BouncingBall.vue component (which you will cut and paste from below), so we can focus on a new concept: data flows between components.
+
+(Note: This looks like a lot of code, but it is mostly just some fancy use of normal CSS.)
+
+*UPDATE BouncingBall.vue*:  
++ Copy/paste this into BouncingBall.vue:  
+  (You can completely overwrite what was there before.)
+
+```html
+<template>
+  <div class="ball" :style="dynamicBallBackgroundColor"></div>
+</template>
+
+<script>
+
+  export default {
+
+    data() {
+      return {
+        ballcolor: '#FF5722'
+      }
+    },
+
+    computed: {
+      dynamicBallBackgroundColor(){
+        return `background-color: ${this.ballcolor};`
+      },
+    },
+  }
+
+</script>
+
+<style scoped>
+
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    from { transform: translate3d(0, 0, 0);     }
+    to   { transform: translate3d(0, 200px, 0); }
+  }
+
+  /* Prefix Support */
+  ball {
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes bounce {
+    from { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+    to   { -webkit-transform: translate3d(0, 200px, 0); transform: translate3d(0, 200px, 0); }
+  }
+  
+</style>
+
+```
 
 
 
