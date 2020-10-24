@@ -1656,7 +1656,7 @@ What if however, we forget to pass in a color. Why don’t we add one more `<bou
   </div>
 
 ```
-Notice there is no ‘ballcolor’ being passed in for the one with the arrow.
+Notice there is no `ballcolor` being passed in for the one with the arrow.
 + We have one of the balls that is white, so we can’t see anything.
 
 In case we forget to pass in Prop data, wouldn’t it be nice to ***set a default***?  Let’s do that.
@@ -1687,35 +1687,35 @@ Moreso, you can start to see how we have the power of reusable components, with 
 
 In this tutorial today, we’ve covered a lot.  Let’s recap:
 1. Learned about is Vue.js
-  + Learned about Frontend Framworks
-  + We’ve generated our first Vue.js app.
-  + Learned about the 3 abilities of the browser
-  + Used standard CSS to style your page
+    + Learned about Frontend Framworks
+    + We’ve generated our first Vue.js app.
+    + Learned about the 3 abilities of the browser
+    + Used standard CSS to style your page
 
 2. Declare data variables
-  + Displayed that data in our HTML, with our templating syntax
+    + Displayed that data in our HTML, with our templating syntax
 
 3. Learned about our first Directives, v-model
-  + Used v-model to two-way bind our data
-  + Update our variables via the <input> field, and shown how it updates everywhere.
+    + Used v-model to two-way bind our data
+    + Update our variables via the <input> field, and shown how it updates everywhere.
 
 4. Learned about Events and Event Driven Programming
-  + Used our v-on directive, to listen for & handle our @click event.
-  + Refactored our event handler into a method
+    + Used our v-on directive, to listen for & handle our @click event.
+    + Refactored our event handler into a method
 
 5. Learned Programming Logic in our HTML, called Directives.
-  + Used v-if to selectively show an image
+    + Used v-if to selectively show an image
 
 6. Learned about Components
-  + Created a BouncingBall.vue component
-  + Imported and used that component in App.vue
-  + Demonstrated how we can reuse that component multiple times in App.vue
+    + Created a BouncingBall.vue component
+    + Imported and used that component in App.vue
+    + Demonstrated how we can reuse that component multiple times in App.vue
 
 7. Learned about Props
-  + Passed data from a parent component App.vue, to our child component BouncingBall.vue.
-  + Made our Components more flexible, using Prop data.
-  + Set a default Prop value, so that our components are less fragile.
-  + ...and Props are only the beginning of learning passing data between components.
+    + Passed data from a parent component App.vue, to our child component BouncingBall.vue.
+    + Made our Components more flexible, using Prop data.
+    + Set a default Prop value, so that our components are less fragile.
+    + ...and Props are only the beginning of learning passing data between components.
 
 You’ve learned a tremendous amount today.  Not only did you learn about Vue.js and many critical concepts to modern frontend web-development, but you learned a lot of browser based development in general.
 
