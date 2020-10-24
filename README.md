@@ -1642,7 +1642,7 @@ For fun, let’s do a few of them.  Use any CSS colors you want.  Here are some 
 
 ## Slight improvement:
 
-What if however, we forget to pass in a color. Why don’t we add one more `<bouncing-ball>` but **without 'ballcolor' being passed in.** 
+What if however, we forget to pass in a color. Why don’t we add one more `<bouncing-ball>` but ***without 'ballcolor' being passed in.*** 
 
 **In App.vue**  
 ```html
