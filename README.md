@@ -55,6 +55,20 @@
 
 **Psst** - If you ever see a **`$`** sign in this tutorial, it is not part of the code. The **`$`** sign means that you should type the code that follows it into your terminal.
 
+
+---
+# Viva-LA-Vue Workshop:
+## A complete beginners guide to web-development with modern frontend frameworks, with Vue.js 
+
+# Table of Contents:
+  * [I. What is Vue.js?](#section-1)
+  * [II. Using Data in our App](#section-2)
+  * [III. Our First Directive: v-model](#section-3)
+  * [IV. Events](#section-4)
+  * [V. Programming Logic in our HTML](#section-5)
+  * [VI. Components](#section-6)
+  * [VII. Props](#section-7)
+
 ---
 
 <a name="section-1">Section I.</a>
@@ -1626,61 +1640,92 @@ For fun, let’s do a few of them.  Use any CSS colors you want.  Here are some 
 
 ```
 
+## Slight improvement:
+
+What if however, we forget to pass in a color. Why don’t we add one more `<bouncing-ball>` but **without 'ballcolor' being passed in.** 
+
+**In App.vue**  
+```html
+
+  <div style="display:flex; align-items: center; justify-content: center;">
+    <bouncing-ball ballcolor="red"></bouncing-ball>
+    <bouncing-ball ballcolor="rgb(255,255,0)"></bouncing-ball>
+⮕   <bouncing-ball></bouncing-ball>
+    <bouncing-ball ballcolor="#ADFF2F"></bouncing-ball>
+    <bouncing-ball ballcolor="cornflowerblue"></bouncing-ball>
+  </div>
+
+```
+Notice there is no ‘ballcolor’ being passed in for the one with the arrow.
++ We have one of the balls that is white, so we can’t see anything.
+
+In case we forget to pass in Prop data, wouldn’t it be nice to ***set a default***?  Let’s do that.
+
+Back in our `BouncingBall.vue` we can set a "default Prop value" that the component will use in case we forget to pass in individual prop data:
+
+*UPDATE*:
+```js
+
+    props: {
+      ballcolor: {
+⮕      default: '#FF5722',
+        type: String,       
+      },
+    },
+
+```
++ This makes sure our component always has default Prop data.  The component will always work, whenever we use it in App.vue.
 
 
+## Wow!  Now we have a bunch of different colored balls bouncing.  Pretty neat!
 
-
-
-
----
----
----
----
----
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Moreso, you can start to see how we have the power of reusable components, with enough flexiblity to alter these component in useful ways.
 
 ---
+
+## Conclusion, for now:
+
+In this tutorial today, we’ve covered a lot.  Let’s recap:
+1. Learned about is Vue.js
+  + Learned about Frontend Framworks
+  + We’ve generated our first Vue.js app.
+  + Learned about the 3 abilities of the browser
+  + Used standard CSS to style your page
+
+2. Declare data variables
+  + Displayed that data in our HTML, with our templating syntax
+
+3. Learned about our first Directives, v-model
+  + Used v-model to two-way bind our data
+  + Update our variables via the <input> field, and shown how it updates everywhere.
+
+4. Learned about Events and Event Driven Programming
+  + Used our v-on directive, to listen for & handle our @click event.
+  + Refactored our event handler into a method
+
+5. Learned Programming Logic in our HTML, called Directives.
+  + Used v-if to selectively show an image
+
+6. Learned about Components
+  + Created a BouncingBall.vue component
+  + Imported and used that component in App.vue
+  + Demonstrated how we can reuse that component multiple times in App.vue
+
+7. Learned about Props
+  + Passed data from a parent component App.vue, to our child component BouncingBall.vue.
+  + Made our Components more flexible, using Prop data.
+  + Set a default Prop value, so that our components are less fragile.
+  + ...and Props are only the beginning of learning passing data between components.
+
+You’ve learned a tremendous amount today.  Not only did you learn about Vue.js and many critical concepts to modern frontend web-development, but you learned a lot of browser based development in general.
+
+You should be proud of all you’ve learned and achieved today.  Take the time to let it absorb.  Maybe do this tutorial again.  Many of these concepts are bedrock fundamentals of web-development.  These lessons will serve you well, as you progress in your journey as a web-developer. 
+
+## Continue on learning! Good luck!!
+
+---
+# Viva-LA-Vue Workshop:
+## A complete beginners guide to web-development with modern frontend frameworks, with Vue.js 
 
 # Table of Contents:
   * [I. What is Vue.js?](#section-1)
@@ -1690,3 +1735,5 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   * [V. Programming Logic in our HTML](#section-5)
   * [VI. Components](#section-6)
   * [VII. Props](#section-7)
+
+---
