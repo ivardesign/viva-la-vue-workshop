@@ -1543,7 +1543,7 @@ Since we’re going to get data from somewhere else, let’s remove the current 
 
 Instead of “data” that is declared inside the `BouncingBall.vue` component, we will declare a “Props” section, which is data that comes from the parent component.
 
-Declare the incoming Prop (Step 1 of 2):  
+#### Declare the incoming Prop (Step 1 of 2):  
 In our Javascript area, at the same level as the data() we just removed, add new section called “props”:
 
 In `BouncingBall.vue`:  
