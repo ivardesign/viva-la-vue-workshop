@@ -1603,16 +1603,28 @@ Each `<bouncing-ball>` component can now accept a `ballcolor` to be passed in. W
 
 From our parent component, `App.vue` let’s pass our `ballcolor` data ***into `<bouncing-ball>`***, each time we use it.
 
-In `App.vue`, find these: `<bouncing-ball>`
+In `App.vue` find these: `<bouncing-ball>`
 
-Let each use of the  `<bouncing-ball>` component know which prop you are passing in, and what the value of that prop data is.
+Let each use of the `<bouncing-ball>` component know which prop you are passing in, and what the value of that prop data is.
 
 ```html
-<bouncing-ball ballcolor="red"></bouncing-ball>
+  <bouncing-ball ballcolor="red"></bouncing-ball>
 ```
 + Here we would say, “the prop is `ballcolor`” and “the value is 'red'”
 
+For fun, let’s do a few of them.  Use any CSS colors you want.  Here are some you can try:
 
+**In App.vue**  
+```html
+
+  <div style="display:flex; align-items: center; justify-content: center;">
+    <bouncing-ball ballcolor="red"></bouncing-ball>
+    <bouncing-ball ballcolor="rgb(255,255,0)"></bouncing-ball>
+    <bouncing-ball ballcolor="#ADFF2F"></bouncing-ball>
+    <bouncing-ball ballcolor="cornflowerblue"></bouncing-ball>
+  </div>
+
+```
 
 
 
