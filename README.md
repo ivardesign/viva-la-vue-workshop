@@ -1525,7 +1525,7 @@ Back in our code, let’s see how this is done...
 
 First, let's focus on our `BouncingBall.vue` component.
 
-In our BouncingBall.vue component, what we want to change is the `ballcolor` we setup earlier.
+In our `BouncingBall.vue` component, what we want to change is the `ballcolor` we setup earlier.
 
 Since we’re going to get data from somewhere else, let’s remove the current `ballcolor` data (in fact, you can remove the entire data() section for now, since we are no longer going to use it).
 
@@ -1541,12 +1541,12 @@ Since we’re going to get data from somewhere else, let’s remove the current 
 ```
 (Note: If you save you will get errors – that is normal, we now have a broken the `BouncingBall.vue` component.  We will fix this soon).
 
-Now, instead of “data” that is declared inside the BouncingBall.vue component, we will declare a “Props” section, which is data that comes from the parent component.
+Instead of “data” that is declared inside the `BouncingBall.vue` component, we will declare a “Props” section, which is data that comes from the parent component.
 
-Declare the incoming Prop (Step 1 of 2):
+Declare the incoming Prop (Step 1 of 2):  
 In our Javascript area, at the same level as the data() we just removed, add new section called “props”:
 
-In BouncingBall.vue:  
+In `BouncingBall.vue`:  
 
 *NEW*:  
 (Same level at data)
