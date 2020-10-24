@@ -1568,8 +1568,26 @@ In `BouncingBall.vue`:
 
 ````
 
+Great, now that we have our Props section, let’s declare our first prop:
 
+```js
 
+  export default {
+
+    props: {
+⮕     ballcolor: {
+⮕       type: String,
+⮕     },
+⮕   },   // Don't forget the comma here.
+
+    computed: {
+      dynamicBallBackgroundColor(){
+        return `background-color: ${this.ballcolor};`
+      },
+    },
+  }
+
+````
 
 
 
