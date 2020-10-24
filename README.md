@@ -1551,9 +1551,21 @@ In BouncingBall.vue:
 *NEW*:  
 (Same level at data)
 ```js
-⮕ props: {
-⮕   
-⮕ },
+
+  export default {
+
+⮕   props: {
+⮕     
+⮕   },
+
+    // You can ignore this code we did for you.  Do not remove.
+    computed: {
+      dynamicBallBackgroundColor(){
+        return `background-color: ${this.ballcolor};`
+      },
+    },
+  }
+
 ````
 
 
