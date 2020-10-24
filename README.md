@@ -1521,7 +1521,7 @@ Passing Props is a 2 step process:
 
 Back in our code, let’s see how this is done...
 
-#### We will be replacing the `BouncingBall.vue` component's internal data, with "prop data" that will come from an external component, from the the parent `App.vue`.
+#### We will be replacing the `BouncingBall.vue` component's internal data, with a "prop" (aka "external data") that will come from the parent component `App.vue`.
 
 First, let's focus on our `BouncingBall.vue` component.
 
