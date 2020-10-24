@@ -1592,10 +1592,10 @@ In `BouncingBall.vue`, add this to declare our first prop called `ballcolor`:
   }
 
 ````
-We have declared a "`ballcolor` Prop" (which happens to be a String).
+We have "declared a `ballcolor` Prop" (which happens to be a String).
 
 #### For `BouncingBall.vue` that’s it!  
-Each `<bouncing-ball>` component can now accept a `ballcolor` to be passed in.  Let’s do that!
+Each `<bouncing-ball>` component can now accept a `ballcolor` to be passed in. We will see changes in the next step. Let’s do it!
 
 ---
 
