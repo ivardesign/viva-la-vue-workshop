@@ -83,7 +83,7 @@
 
 “Frontend” means the code that you see in your browser, like Firefox, Chrome, or Safari. 
 - A “framework” is like the workbench of tools and supplies that you need to build a project on the web.
-- Imagine that instead of coding, you were a carpenter building a house. A carpenter has her workbench of tools. This might include a saw and hammer. But it would probably not include a (cherry-shaped) toilet plunger. The carpenter’s workbench only includes that which is needed for carpentry.
+- Imagine that instead of coding, you were a carpenter building a house. A carpenter has her workbench of tools. This might include a saw and hammer. But it would probably not include a plunger. The carpenter’s workbench only includes that which is needed for carpentry.
 - Our “frontend framework” includes all of the tools we need to create web-pages and only includes those tools.
  
 Other Frontend Frameworks that you may have heard of include React, Angular, Ember and many, many more. 
@@ -104,15 +104,22 @@ $ npm install -g @vue/cli
 ## Let’s create our first app
 
 + Create to a directory (aka a folder) where you want to create your new Vue app. (You may want to create it on your Desktop so you can easily find it later.)
-  
+```
+mkdir  bouncy-bounce
+```
+Then change directories into bouncy bounce.
+```
+cd bouncy-bounce
+```
+
 ### Tell Vue to create a new app 
 ##### How we do that? 
-#### Run the following command in your terminal.  
-(*However, **use your name** instead. For example: if your name is Veronica, you could write:  $ vue create veronicas-vue-app*)
+#### Run the following command in your terminal
+(*However, **use your name** instead of my-app-name. For example: if your name is Veronica, you could write:  $ vue create veronicas-vue-app*)
 ```js
 $ vue create my-app-name
 ```
-#### Once you run this command, Vue will ask you to make several decisions.  
+#### Once you run this command, Vue will ask you to make several decisions
 Today we are going to make these choices:
 + Use “Default, vue 3”
     
@@ -180,7 +187,7 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 ```html
 <template>
   <div>
-    <h1>Welcome to the Viva-LA-Vue Workshop!</h1>
+    <h1>Hi Veronica! Welcome to the viva-LA-vue Workshop!</h1>
   </div>
 </template>
 
@@ -195,22 +202,33 @@ We’re getting rid of everything, to show you the simplest version of a Vue.js 
 </style>
 ```
 
-#### Delete the /components folder
-+ Now, take a look in your browser.
+#### Delete the src/components folder
+Currently you chould see the HelloWorld.vue file in it. We don't need any of this right now.
++ Take a look in your browser.
 + You should see the text you wrote: “Welcome to the Viva-LA-Vue Workshop!” in your browser.
 
-#### Next, let's test that our css works, by adding id and styles:
-+ Note so far in our Vue.js app, we have only needed to use **standard HTML.** We also use **stardard CSS.**
-+ This is a major benefit to the Vue ecosystem.  You can just use the HTML and CSS that you already know. No special languages required.
+## Add id and styles
+#### Let's test that our css works, by adding id and styles
++ Note, so far in our Vue.js app
+    + We have only needed to use **standard HTML.**
+    + We also are only using **stardard CSS.**
++ The major benefit to the Vue ecosystem is that
+    + You can just use the HTML and CSS that you already know.
+    + No special languages are required.
 
-#### Let’s style our `<div>`: 
+### Let’s style our `<div>`
+In your `src/App.vue` file
 
-A. First, add an “id” to our `<div>`.
-`<div id="current-id">`
+#### Add an “id” to the `<div>`
+```js
+  <div id="current-id">
+    <h1>Hi Veronica! Welcome to the viva-LA-vue Workshop!</h1>
+  </div>
+```
 
-B. then, we can attach a background-color to that `<div>` via our “current-id” in our `<style>` section:
+Then, we can attach a background-color to that `<div>` via our “current-id” in our `<style>` section:
 
-Down the page, in your `<style>` section, you should create the following id, and add a `background-color`:
+#### Create the `current-id` id and give it a `background-color`
 ```css
   <style>
     #current-id{
@@ -247,28 +265,35 @@ Down the page, in your `<style>` section, you should create the following id, an
 
 Note that the styles **automatically** update in the browser. This is not a little thing. This is one of the niceties of modern tooling. We no longer need to press refresh on the browser constantly. With Vue and other modern frontend frameworks, it makes sure to update in the browser for you as much as possible. This makes for a much smoother development workflow. (Sometimes, in some rarer cases, we still need to press refresh).
 
+### Check our your browser. 
 Do you have blue on your page?  Great, it worked! 
 
-#### We see that it works. Now we can go back to the default css, because it is prettier.
+#### We see that it works. Now we can go back to something similar to the default css, because it is prettier. Copy and paste this into your style section.
 
 ```html
   <style>
     #current-id{
-      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-align: center;
-      color: #2c3e50;
+      color: #42b883;
       margin-top: 60px;
     }
   </style>
 ```
-+ You’ll know that it worked if the text is centered, and the background is back to white.
++ You’ll know that this code worked if the text is centered, and the background is white.
+
+---
+---
 
 ### SPECIAL VUE USAGE Note:
 + For each `<template>` **we need a parent `<div>`** or Vue will throw an error. This is the case for all of these frontend frameworks.
-+ Notice that the `<h1>` is within a `<div>` this is critical. We always need ONE parent `<div>` in each of our `.vue` files.
++ Notice that the `<h1>` is within a `<div>` this is critical.
 
+**We always need ONE parent `<div>` in each of our `.vue` files.**
+
+---
 ---
 
 ## Concept: Overview of the Browser
