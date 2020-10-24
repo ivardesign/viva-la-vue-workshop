@@ -297,25 +297,39 @@ Do you have blue on your page?  Great, it worked!
 ---
 
 ## Concept: Overview of the Browser
+![vue-structure](vue-structure.jpg)
 
-#### The Browser’s abilities can be broken down in 3 concepts...
+### The Browser’s abilities can be broken down in 3 concepts
 
-+ **HTML**: Text, Organized like a Newspaper. (Hyper-Text Markup Language)
-  + We think of each HTML page as a “document.” Much like a Newspaper, text can be organized into different sections like “header” “article” or “aside” (and many more). Because we are linking these pages together, we also use “links” and “buttons.”
+#### HTML - The Skeleton
+Text, Organized much like a Newspaper. (Hyper-Text Markup Language)
+  + We think of each HTML page as a “document.” Much like a Newspaper, text can be organized into different sections like “header” “article” or “aside” (and many more).
+  + Because we are linking these pages together, we also use “links” and “buttons.”
 
-+ **CSS**: Style. (Cascading Style Sheets)
-  + Used to define the styles for your page and how they will appear. It controls the presentation of your site through position, layout, colors, size, font, et cetera. CSS allows us to style individual elements and/or all the elements at once for our entire web-application.
+#### CSS (Cascading Style Sheets) - The Style
+The "look" of our site.
+  + CSS is used to define the styles on your page and how they will appear. 
+  + It controls the presentation of your site through position, layout, colors, size, font, et cetera.
+  + CSS allows us to style individual elements and/or all the elements at once for our entire web-application.
 
-+ **Javascript**: Behavior.
-  + Javascript is the way we create interactive behavior, to engage with the User.  For example, we can make a website that has a *Popup.*  Javascript gives us the ability to do programming in the browser.
+#### Javascript - The Brain
+The behavior of our site.
+  + Javascript is the way we create interactive behavior, to engage with the User.
+  + For example, we can make a website that has a *Popup.*
+  + Javascript gives us the ability to do programming in the browser.
 
-Normally, HTML, CSS and Javascript are all written in separate files.  Vue.js makes our lives easier, by grouping related `HTML` `CSS` and `Javascript` in `.vue` files.
+Normally, HTML, CSS and Javascript are all written in separate files.
 
-In every `.vue` file, there will be these 3 sections, the 1st section will be the html, between `<template>` the 2nd section, will be in the `<script>` section which contains the Javascript, the 3rd section is the `<style>` section, which contains the CSS. 
+#### Vue.js makes our lives easier, by grouping related `HTML` `CSS` and `Javascript` in `.vue` files.
+
+#### In every `.vue` file, there will be these 3 sections
+1. The 1st is the HTML, between `<template>` section
+1. The 2nd is the Jacascript, between the `<script>` section
+1. The 3rd is the CSS, between the `<style>` section
 
 In Vue.js these abilities are all wrapped together in a nice little package, the `.vue` file. This structure allows us to use `stardard HTML and CSS` together, and sprinkle in little bits of Javascript directly into our HTML code.
 
-#### Our App.vue file:
+#### Our App.vue file
 ```html
 
   <template>
