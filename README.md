@@ -1568,8 +1568,12 @@ In `BouncingBall.vue`:
 
 ````
 
-Great, now that we have our Props section, let’s declare our first prop:
+Great, now that we have our Props section, let’s ***declare our first prop.***
 
+
+In `BouncingBall.vue`, add this to declare our first prop called `ballcolor`:
+
+*UPDATE*:
 ```js
 
   export default {
