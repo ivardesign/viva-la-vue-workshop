@@ -1595,13 +1595,13 @@ In `BouncingBall.vue`, add this to declare our first prop called `ballcolor`:
 We have declared a "`ballcolor` Prop" (which happens to be a String).
 
 #### For `BouncingBall.vue` that’s it!  
-Each `<bouncing-ball>` component can now accept a “`ballcolor`” to be passed in.  Let’s do that!
+Each `<bouncing-ball>` component can now accept a `ballcolor` to be passed in.  Let’s do that!
 
 ---
 
 #### Passing "Prop data" into the Component (Step 2 of 2):  
 
-From our parent component, `App.vue` let’s pass our “ballcolor” data ***into `<bouncing-ball>`***, each time we use it.
+From our parent component, `App.vue` let’s pass our `ballcolor` data ***into `<bouncing-ball>`***, each time we use it.
 
 In `App.vue`, find these: `<bouncing-ball>`
 
@@ -1610,7 +1610,7 @@ Let each use of the  `<bouncing-ball>` component know which prop you are passing
 ```html
 <bouncing-ball ballcolor="red"></bouncing-ball>
 ```
-+ Here we would say, “the prop is ballcolor” and “the value is red”
++ Here we would say, “the prop is `ballcolor`” and “the value is 'red'”
 
 
 
