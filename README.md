@@ -297,7 +297,7 @@ Do you have blue on your page?  Great, it worked!
 ---
 
 ## Concept: Overview of the Browser
-![vue-structure](./vue-structure.jpg)
+![vue-structure](https://github.com/kobione/viva-la-vue-workshop/vue-structure.jpg)
 
 ### The Browser’s abilities can be broken down in 3 concepts
 
